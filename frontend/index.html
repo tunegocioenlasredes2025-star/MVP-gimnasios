@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CuotaClub — Ingresar</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="brand">Cuota<span>Club</span></div>
+      <div class="tagline">Que tus socios paguen solos.</div>
+      <form id="loginForm">
+        <div class="field">
+          <label for="usuario">Usuario</label>
+          <input id="usuario" name="usuario" autocomplete="username" required />
+        </div>
+        <div class="field">
+          <label for="password">Contraseña</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required />
+        </div>
+        <button class="btn" type="submit">Ingresar</button>
+        <div class="error-msg" id="err"></div>
+      </form>
+      <div class="demo-note">Demo: usuario <b>demo</b> · contraseña <b>demo1234</b></div>
+    </div>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script>
+    // Si ya hay sesión, ir directo al dashboard.
+    fetch("/api/me", { credentials: "same-origin" }).then((r) => { if (r.ok) location.href = "/dashboard.html"; });
+
+    document.getElementById("loginForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const err = document.getElementById("err");
+      err.textContent = "";
+      try {
+        await api("/login", {
+          method: "POST",
+          body: {
+            usuario: document.getElementById("usuario").value,
+            password: document.getElementById("password").value,
+          },
+        });
+        location.href = "/dashboard.html";
+      } catch (ex) {
+        err.textContent = "Usuario o contraseña incorrectos.";
+      }
+    });
+  </script>
+</body>
+</html>

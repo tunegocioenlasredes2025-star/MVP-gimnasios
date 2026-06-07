@@ -1,0 +1,19 @@
+# Blueprint de Render para desplegar CuotaClub.
+# En Render: New → Blueprint → conectar el repo. Toma esta config automáticamente.
+services:
+  - type: web
+    name: cuotaclub
+    runtime: python
+    rootDir: backend
+    plan: starter            # "starter" (pago) habilita disco persistente. "free" = datos se reinician en cada deploy.
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true   # Render genera una clave segura para firmar sesiones.
+      - key: DB_PATH
+        value: /var/data/data.db
+    disk:
+      name: cuotaclub-data
+      mountPath: /var/data    # SQLite vive acá para sobrevivir a los deploys.
+      sizeGB: 1

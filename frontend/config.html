@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CuotaClub — Configuración</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">Cuota<span>Club</span></div>
+      <div class="gym-name" data-gym-name>…</div>
+      <nav>
+        <a href="/dashboard.html">📊 <span>Dashboard</span></a>
+        <a href="/socios.html">👥 <span>Socios</span></a>
+        <a href="/socios.html?filtro=moroso">⚠️ <span>Morosos</span></a>
+        <a href="/config.html" class="active">⚙️ <span>Configuración</span></a>
+      </nav>
+      <div class="spacer"></div>
+      <button class="logout" onclick="logout()">↩ Cerrar sesión</button>
+    </aside>
+
+    <main class="main">
+      <div class="page-head">
+        <div>
+          <h1>Configuración</h1>
+          <div class="sub">Cobros y reglas de tu gimnasio</div>
+        </div>
+      </div>
+
+      <div class="card" style="max-width:640px;">
+        <div class="card-head"><h3>Cobros por WhatsApp</h3></div>
+        <div style="padding:22px;">
+          <div class="field">
+            <label>Access Token de Mercado Pago</label>
+            <input id="cMp" placeholder="APP_USR-..." />
+            <div class="hint" id="mpStatus"></div>
+            <div class="hint">Con esto, el aviso de WhatsApp incluye un <b>link de pago</b> por el monto de la cuota.
+              Lo sacás de tu panel de <a href="https://www.mercadopago.com.ar/developers/panel/app" target="_blank">Mercado Pago Developers → Credenciales de producción</a>.
+              Se guarda solo (no se vuelve a mostrar por seguridad).</div>
+          </div>
+          <div class="field">
+            <label>Alias / CBU (respaldo)</label>
+            <input id="cAlias" placeholder="migimnasio.mp" />
+            <div class="hint">Si no hay token de Mercado Pago, el mensaje invita a transferir a este alias.</div>
+          </div>
+          <hr style="border:none;border-top:1px solid var(--line);margin:20px 0;">
+          <div class="grid2">
+            <div class="field">
+              <label>Días para avisar "por vencer"</label>
+              <input id="cPorVencer" type="number" min="0" max="60" />
+              <div class="hint">Cuántos días antes del vencimiento se marca "por vencer".</div>
+            </div>
+            <div class="field">
+              <label>Días para marcar "moroso"</label>
+              <input id="cMoroso" type="number" min="1" max="120" />
+              <div class="hint">Días desde el último pago hasta considerar al socio moroso.</div>
+            </div>
+          </div>
+          <button class="btn" onclick="guardar()" style="margin-top:8px;">Guardar configuración</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/config.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+nombre,apellido,telefono,email,plan,cuota_mensual,dia_vencimiento,fecha_ultimo_pago
+Juan,Pérez,5491133224455,juan.perez@mail.com,Full,35000,10,2026-05-15
+María,Gómez,5491144556677,maria.gomez@mail.com,3 días,28000,5,2026-04-20
+Lucas,Fernández,5491155667788,,Pase libre,42000,15,
+Sofía,López,5491166778899,sofia.lopez@mail.com,Estudiante,22000,20,2026-05-28

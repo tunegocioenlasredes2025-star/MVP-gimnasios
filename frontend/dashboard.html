@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CuotaClub — Dashboard</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">Cuota<span>Club</span></div>
+      <div class="gym-name" data-gym-name>…</div>
+      <nav>
+        <a href="/dashboard.html" class="active">📊 <span>Dashboard</span></a>
+        <a href="/socios.html">👥 <span>Socios</span></a>
+        <a href="/socios.html?filtro=moroso">⚠️ <span>Morosos</span></a>
+        <a href="/config.html">⚙️ <span>Configuración</span></a>
+      </nav>
+      <div class="spacer"></div>
+      <button class="logout" onclick="logout()">↩ Cerrar sesión</button>
+    </aside>
+
+    <main class="main">
+      <div class="page-head">
+        <div>
+          <h1>Dashboard</h1>
+          <div class="sub">Resumen de tu cobranza — <span data-gym-name>…</span></div>
+        </div>
+        <a class="btn" href="/socios.html?filtro=moroso">Cobrar morosos →</a>
+      </div>
+
+      <div class="kpi-grid" id="kpis"></div>
+
+      <div class="card">
+        <div class="card-head"><h3>Acciones rápidas</h3></div>
+        <div style="padding: 20px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="btn secondary" href="/socios.html?filtro=por_vencer">Ver socios por vencer</a>
+          <a class="btn secondary" href="/socios.html?filtro=moroso">Ver morosos</a>
+          <a class="btn secondary" href="/socios.html">Gestionar socios</a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

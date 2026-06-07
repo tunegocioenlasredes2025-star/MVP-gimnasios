@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CuotaClub — Socios</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">Cuota<span>Club</span></div>
+      <div class="gym-name" data-gym-name>…</div>
+      <nav>
+        <a href="/dashboard.html">📊 <span>Dashboard</span></a>
+        <a href="/socios.html" class="active">👥 <span>Socios</span></a>
+        <a href="/socios.html?filtro=moroso">⚠️ <span>Morosos</span></a>
+        <a href="/config.html">⚙️ <span>Configuración</span></a>
+      </nav>
+      <div class="spacer"></div>
+      <button class="logout" onclick="logout()">↩ Cerrar sesión</button>
+    </aside>
+
+    <main class="main">
+      <div class="page-head">
+        <div>
+          <h1>Socios</h1>
+          <div class="sub" id="counter">Cargando…</div>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button class="btn secondary" onclick="abrirImport()">⬆ Importar CSV</button>
+          <button class="btn" onclick="abrirSocio()">+ Nuevo socio</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="filters" id="filters">
+            <button class="chip" data-f="todos">Todos</button>
+            <button class="chip" data-f="activo">Al día</button>
+            <button class="chip" data-f="por_vencer">Por vencer</button>
+            <button class="chip" data-f="moroso">Morosos</button>
+            <button class="chip" data-f="inactivo">Inactivos</button>
+          </div>
+        </div>
+        <div id="tableWrap">
+          <table>
+            <thead>
+              <tr><th>Socio</th><th>Plan</th><th>Cuota</th><th>Estado</th><th>Vencimiento</th><th></th></tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+          <div class="empty" id="empty" style="display:none;">No hay socios en este filtro.</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal: alta / edición de socio -->
+  <div class="modal-bg" id="mSocio">
+    <div class="modal">
+      <div class="modal-head"><h3 id="mSocioTitle">Nuevo socio</h3><button class="close-x" onclick="cerrar('mSocio')">×</button></div>
+      <div class="modal-body">
+        <input type="hidden" id="sId" />
+        <div class="grid2">
+          <div class="field"><label>Nombre *</label><input id="sNombre" /></div>
+          <div class="field"><label>Apellido</label><input id="sApellido" /></div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>Teléfono (con país)</label><input id="sTelefono" placeholder="5491122334455" /></div>
+          <div class="field"><label>Email</label><input id="sEmail" /></div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>Plan</label><input id="sPlan" placeholder="Full" /></div>
+          <div class="field"><label>Cuota mensual</label><input id="sCuota" type="number" /></div>
+        </div>
+        <div class="grid2">
+          <div class="field"><label>Día de vencimiento</label><input id="sDia" type="number" min="1" max="31" value="10" /></div>
+          <div class="field"><label>Último pago</label><input id="sUltPago" type="date" /></div>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn secondary" onclick="cerrar('mSocio')">Cancelar</button>
+        <button class="btn" onclick="guardarSocio()">Guardar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: registrar pago -->
+  <div class="modal-bg" id="mPago">
+    <div class="modal">
+      <div class="modal-head"><h3>Registrar pago</h3><button class="close-x" onclick="cerrar('mPago')">×</button></div>
+      <div class="modal-body">
+        <input type="hidden" id="pSocioId" />
+        <p class="sub" id="pSocioNombre" style="margin-top:-6px;color:var(--muted)"></p>
+        <div class="grid2">
+          <div class="field"><label>Monto</label><input id="pMonto" type="number" /></div>
+          <div class="field"><label>Fecha</label><input id="pFecha" type="date" /></div>
+        </div>
+        <div class="field">
+          <label>Método</label>
+          <select id="pMetodo"><option>Efectivo</option><option>Transferencia</option><option>Mercado Pago</option></select>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn secondary" onclick="cerrar('mPago')">Cancelar</button>
+        <button class="btn" onclick="guardarPago()">Confirmar pago</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: detalle del socio + historial -->
+  <div class="modal-bg" id="mDetalle">
+    <div class="modal wide">
+      <div class="modal-head"><h3 id="dTitle">Socio</h3><button class="close-x" onclick="cerrar('mDetalle')">×</button></div>
+      <div class="modal-body" id="dBody"></div>
+      <div class="modal-foot" id="dFoot"></div>
+    </div>
+  </div>
+
+  <!-- Modal: importar CSV -->
+  <div class="modal-bg" id="mImport">
+    <div class="modal">
+      <div class="modal-head"><h3>Importar socios desde CSV</h3><button class="close-x" onclick="cerrar('mImport')">×</button></div>
+      <div class="modal-body">
+        <p class="hint">Columnas: nombre, apellido, telefono, email, plan, cuota_mensual, dia_vencimiento, fecha_ultimo_pago. Se omiten duplicados por teléfono o email. Ver <b>sample_socios.csv</b>.</p>
+        <div class="field"><input type="file" id="csvFile" accept=".csv" /></div>
+        <div class="hint" id="importMsg"></div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn secondary" onclick="cerrar('mImport')">Cancelar</button>
+        <button class="btn" onclick="subirCsv()">Importar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/socios.js"></script>
+</body>
+</html>
