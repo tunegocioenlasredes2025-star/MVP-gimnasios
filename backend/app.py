@@ -10,7 +10,7 @@ import os
 
 from flask import Flask, redirect, session
 
-from database import init_db
+from database import get_db, init_db
 from routes import bp as api_bp
 
 FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend")
@@ -24,6 +24,22 @@ app.register_blueprint(api_bp)
 # Crear tablas al importar (idempotente). Necesario en producción con gunicorn,
 # que no ejecuta el bloque __main__ de abajo.
 init_db()
+
+
+def _bootstrap_demo():
+    """Si la base no tiene ningún gimnasio, carga el demo (usuario demo / demo1234).
+    Así un deploy nuevo es usable al instante. Se desactiva con SEED_ON_EMPTY=0."""
+    if os.environ.get("SEED_ON_EMPTY", "1") != "1":
+        return
+    conn = get_db()
+    vacio = conn.execute("SELECT COUNT(*) AS c FROM gimnasios").fetchone()["c"] == 0
+    conn.close()
+    if vacio:
+        from seed_demo import reset_demo
+        reset_demo()
+
+
+_bootstrap_demo()
 
 
 @app.route("/")
