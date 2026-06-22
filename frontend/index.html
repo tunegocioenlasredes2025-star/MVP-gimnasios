@@ -10,7 +10,7 @@
   <div class="login-wrap">
     <div class="login-card">
       <div class="brand">Cuota<span>Club</span></div>
-      <div class="tagline">Que tus socios paguen solos.</div>
+      <div class="tagline">Gestión y cobranza para tu gimnasio</div>
       <form id="loginForm">
         <div class="field">
           <label for="usuario">Usuario</label>
@@ -23,13 +23,12 @@
         <button class="btn" type="submit">Ingresar</button>
         <div class="error-msg" id="err"></div>
       </form>
-      <div class="demo-note">Demo: usuario <b>demo</b> · contraseña <b>demo1234</b></div>
+      <div class="demo-note">Demo · usuario <b>demo</b> · contraseña <b>demo1234</b></div>
     </div>
   </div>
 
   <script src="/js/api.js"></script>
   <script>
-    // Si ya hay sesión, ir directo al dashboard.
     fetch("/api/me", { credentials: "same-origin" }).then((r) => { if (r.ok) location.href = "/dashboard.html"; });
 
     document.getElementById("loginForm").addEventListener("submit", async (e) => {

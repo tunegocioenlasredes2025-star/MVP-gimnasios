@@ -5,8 +5,8 @@
   document.getElementById("cPorVencer").value = me.dias_por_vencer;
   document.getElementById("cMoroso").value = me.dias_para_moroso;
   document.getElementById("mpStatus").innerHTML = me.tiene_mp
-    ? "✅ Hay un token de Mercado Pago cargado. Dejá el campo vacío para mantenerlo."
-    : "⚠️ Todavía no cargaste el token. Por ahora los avisos usan el alias.";
+    ? "Hay un token de Mercado Pago cargado. Dejá el campo vacío para mantenerlo."
+    : "Todavía no cargaste el token. Por ahora los avisos usan el alias.";
 })();
 
 async function guardar() {

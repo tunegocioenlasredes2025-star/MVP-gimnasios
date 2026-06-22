@@ -1,30 +1,42 @@
-// Página de Socios: lista + filtros + alta/edición + cobro + WhatsApp + import + historial.
+// Página de Socios: lista + filtros + búsqueda + alta/edición + cobro + WhatsApp + import.
 
 let FILTRO = new URLSearchParams(location.search).get("filtro") || "todos";
+let SOCIOS = [];
 
 function cerrar(id) { document.getElementById(id).classList.remove("open"); }
 function abrir(id) { document.getElementById(id).classList.add("open"); }
 
-// ---------- carga y render de la tabla ----------
+// ---------- carga (servidor) ----------
 async function cargar() {
   document.querySelectorAll("#filters .chip").forEach((c) =>
     c.classList.toggle("active", c.dataset.f === FILTRO)
   );
-  const socios = await api("/socios?filtro=" + encodeURIComponent(FILTRO));
-  const tbody = document.getElementById("tbody");
-  const empty = document.getElementById("empty");
+  SOCIOS = await api("/socios?filtro=" + encodeURIComponent(FILTRO));
+  render();
+}
+
+// ---------- render (cliente: aplica búsqueda) ----------
+function render() {
+  const q = (document.getElementById("search").value || "").toLowerCase().trim();
+  const lista = q
+    ? SOCIOS.filter((s) =>
+        `${s.nombre} ${s.apellido} ${s.telefono} ${s.plan}`.toLowerCase().includes(q))
+    : SOCIOS;
 
   document.getElementById("counter").textContent =
-    `${socios.length} socio(s)` + (FILTRO !== "todos" ? ` · filtro: ${ESTADO_LABEL[FILTRO] || FILTRO}` : "");
+    `${lista.length} socio${lista.length === 1 ? "" : "s"}` +
+    (FILTRO !== "todos" ? ` · ${ESTADO_LABEL[FILTRO] || FILTRO}` : "");
 
-  if (!socios.length) {
+  const tbody = document.getElementById("tbody");
+  const empty = document.getElementById("empty");
+  if (!lista.length) {
     tbody.innerHTML = "";
     empty.style.display = "block";
     return;
   }
   empty.style.display = "none";
 
-  tbody.innerHTML = socios
+  tbody.innerHTML = lista
     .map((s) => {
       const venc =
         s.estado === "inactivo" ? "—"
@@ -42,9 +54,9 @@ async function cargar() {
         <td data-label="Vencimiento" class="muted">${venc}</td>
         <td class="cell-actions">
           <div class="row-actions">
-            ${puedeAvisar ? `<button class="btn wa sm" onclick="enviarAviso(${s.id})">WhatsApp</button>` : ""}
-            ${s.estado !== "inactivo" ? `<button class="btn sm" onclick="abrirPago(${s.id})">Cobrar</button>` : ""}
-            <button class="btn secondary sm" onclick="verDetalle(${s.id})">Ver</button>
+            ${puedeAvisar ? `<button class="btn wa sm" onclick="enviarAviso(${s.id})">${icon("message", 15)}<span>WhatsApp</span></button>` : ""}
+            ${s.estado !== "inactivo" ? `<button class="btn sm" onclick="abrirPago(${s.id})">${icon("dollar", 15)}<span>Cobrar</span></button>` : ""}
+            <button class="btn secondary sm" onclick="verDetalle(${s.id})">${icon("eye", 15)}<span>Ver</span></button>
           </div>
         </td>
       </tr>`;
@@ -95,7 +107,7 @@ async function abrirPago(id) {
   const s = _socioCache[id] || (await api("/socios/" + id));
   _socioCache[id] = s;
   document.getElementById("pSocioId").value = id;
-  document.getElementById("pSocioNombre").textContent = `${s.nombre} ${s.apellido} — ${s.plan || ""}`;
+  document.getElementById("pSocioNombre").textContent = `${s.nombre} ${s.apellido} · ${s.plan || ""}`;
   document.getElementById("pMonto").value = s.cuota_mensual;
   document.getElementById("pFecha").value = new Date().toISOString().slice(0, 10);
   document.getElementById("pMetodo").value = "Efectivo";
@@ -114,7 +126,7 @@ async function guardarPago() {
     const r = await api("/socios/" + id + "/pago", { method: "POST", body });
     cerrar("mPago");
     delete _socioCache[id];
-    toast(r.recupero ? "💚 ¡Pago registrado! Socio recuperado." : "Pago registrado.");
+    toast(r.recupero ? "Pago registrado. Deudor recuperado." : "Pago registrado.");
     cargar();
   } catch (e) { toast("No se pudo registrar el pago."); }
 }
@@ -126,7 +138,7 @@ async function enviarAviso(id) {
     if (!r.tiene_telefono) return toast("Este socio no tiene teléfono cargado.");
     window.open(r.whatsapp_url, "_blank");
     toast(r.link_pago ? "Abriendo WhatsApp con link de pago." : "Abriendo WhatsApp.");
-    cargar(); // refresca 'último aviso'
+    cargar();
   } catch (e) { toast("No se pudo generar el aviso."); }
 }
 
@@ -136,12 +148,12 @@ async function verDetalle(id) {
   _socioCache[id] = s;
   document.getElementById("dTitle").textContent = `${s.nombre} ${s.apellido}`;
   const pagos = (s.pagos || [])
-    .map((p) => `<div class="pago-row"><span>${p.fecha} · ${p.metodo}${p.recupero ? " · 💚" : ""}</span><b>${money(p.monto)}</b></div>`)
+    .map((p) => `<div class="pago-row"><span class="muted">${p.fecha} · ${p.metodo}</span><b>${money(p.monto)}</b></div>`)
     .join("") || `<div class="muted">Sin pagos registrados.</div>`;
 
   document.getElementById("dBody").innerHTML = `
-    <p><span class="badge ${s.estado}">${ESTADO_LABEL[s.estado]}</span></p>
-    <div class="grid2">
+    <p style="margin-top:-2px"><span class="badge ${s.estado}">${ESTADO_LABEL[s.estado]}</span></p>
+    <div class="detalle-grid">
       <div><div class="muted">Plan</div><b>${s.plan || "—"}</b></div>
       <div><div class="muted">Cuota</div><b>${money(s.cuota_mensual)}</b></div>
       <div><div class="muted">Teléfono</div><b>${s.telefono || "—"}</b></div>
@@ -149,7 +161,8 @@ async function verDetalle(id) {
       <div><div class="muted">Último pago</div><b>${s.fecha_ultimo_pago ? s.fecha_ultimo_pago.slice(0,10) : "—"}</b></div>
       <div><div class="muted">Último aviso</div><b>${s.fecha_ultimo_aviso ? s.fecha_ultimo_aviso.slice(0,10) : "—"}</b></div>
     </div>
-    <h3 style="margin-top:18px;font-size:15px;">Historial de pagos</h3>
+    <hr class="divider">
+    <h3 style="font-size:14px;margin-bottom:8px;">Historial de pagos</h3>
     ${pagos}`;
 
   const bajaLabel = s.dado_baja ? "Reactivar" : "Dar de baja";
@@ -179,8 +192,8 @@ async function subirCsv() {
   try {
     const r = await api("/socios/import", { method: "POST", body: fd });
     document.getElementById("importMsg").innerHTML =
-      `✅ Importados: <b>${r.creados}</b> · Omitidos (duplicados): ${r.omitidos}` +
-      (r.errores && r.errores.length ? `<br>⚠️ ${r.errores.length} con error.` : "");
+      `Importados: <b>${r.creados}</b> · Omitidos (duplicados): ${r.omitidos}` +
+      (r.errores && r.errores.length ? ` · ${r.errores.length} con error.` : "");
     toast(`Importados ${r.creados} socios.`);
     cargar();
   } catch (e) { toast("No se pudo importar el CSV."); }
@@ -190,6 +203,7 @@ async function subirCsv() {
 document.querySelectorAll("#filters .chip").forEach((c) =>
   c.addEventListener("click", () => { FILTRO = c.dataset.f; cargar(); })
 );
+document.getElementById("search").addEventListener("input", render);
 document.querySelectorAll(".modal-bg").forEach((m) =>
   m.addEventListener("click", (e) => { if (e.target === m) m.classList.remove("open"); })
 );

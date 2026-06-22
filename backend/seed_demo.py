@@ -55,10 +55,11 @@ def reset_demo():
         else:
             ult_pago = hoy - timedelta(days=random.randint(1, 20))    # al día
         tel = "549112" + str(random.randint(1000000, 9999999))
+        alta = hoy - timedelta(days=random.randint(0, 150))  # antigüedad variada
         cur = conn.execute(
             """INSERT INTO socios (gimnasio_id, nombre, apellido, telefono, email, plan,
-               cuota_mensual, dia_vencimiento, fecha_ultimo_pago, fecha_ultimo_aviso)
-               VALUES (?,?,?,?,?,?,?,?,?,?)""",
+               cuota_mensual, dia_vencimiento, fecha_ultimo_pago, fecha_ultimo_aviso, created_at)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
             (
                 gid,
                 random.choice(NOMBRES),
@@ -70,6 +71,7 @@ def reset_demo():
                 random.choice([5, 10, 15, 20]),
                 ult_pago.isoformat(),
                 (hoy - timedelta(days=2)).isoformat() if i < 18 else None,
+                alta.isoformat(),
             ),
         )
         socios_ids.append((cur.lastrowid, cuota, ult_pago))

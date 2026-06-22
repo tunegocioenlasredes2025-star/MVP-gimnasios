@@ -247,12 +247,14 @@ def dashboard_kpis(gym_id):
     cobrado_mes = sum(p["monto"] for p in pagos_mes)
     recuperado_mes = sum(p["monto"] for p in pagos_mes if p["recupero"])
     pendiente = sum(s["cuota_mensual"] for s in (morosos + por_vencer))
+    nuevos_mes = sum(1 for s in socios if (s["created_at"] or "")[:7] == mes)
 
     return {
         "socios_activos": len(activos),
         "socios_morosos": len(morosos),
         "socios_por_vencer": len(por_vencer),
         "socios_inactivos": len(inactivos),
+        "socios_nuevos_mes": nuevos_mes,
         "socios_total": len(socios),
         "facturacion_esperada": round(facturacion_esperada, 2),
         "cobrado_mes": round(cobrado_mes, 2),

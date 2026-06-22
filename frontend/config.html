@@ -12,13 +12,13 @@
       <div class="brand">Cuota<span>Club</span></div>
       <div class="gym-name" data-gym-name>…</div>
       <nav>
-        <a href="/dashboard.html">📊 <span>Dashboard</span></a>
-        <a href="/socios.html">👥 <span>Socios</span></a>
-        <a href="/socios.html?filtro=moroso">⚠️ <span>Morosos</span></a>
-        <a href="/config.html" class="active">⚙️ <span>Configuración</span></a>
+        <a href="/dashboard.html" data-icon="dashboard"><span>Dashboard</span></a>
+        <a href="/socios.html" data-icon="users"><span>Socios</span></a>
+        <a href="/socios.html?filtro=moroso" data-icon="alert"><span>Deudores</span></a>
+        <a href="/config.html" class="active" data-icon="settings"><span>Configuración</span></a>
       </nav>
       <div class="spacer"></div>
-      <button class="logout" onclick="logout()">↩ Cerrar sesión</button>
+      <button class="logout" data-icon="logout" onclick="logout()"><span>Salir</span></button>
     </aside>
 
     <main class="main">
@@ -31,21 +31,21 @@
 
       <div class="card" style="max-width:640px;">
         <div class="card-head"><h3>Cobros por WhatsApp</h3></div>
-        <div style="padding:22px;">
+        <div class="card-pad">
           <div class="field">
             <label>Access Token de Mercado Pago</label>
             <input id="cMp" placeholder="APP_USR-..." />
             <div class="hint" id="mpStatus"></div>
             <div class="hint">Con esto, el aviso de WhatsApp incluye un <b>link de pago</b> por el monto de la cuota.
-              Lo sacás de tu panel de <a href="https://www.mercadopago.com.ar/developers/panel/app" target="_blank">Mercado Pago Developers → Credenciales de producción</a>.
-              Se guarda solo (no se vuelve a mostrar por seguridad).</div>
+              Lo sacás de tu panel de <a href="https://www.mercadopago.com.ar/developers/panel/app" target="_blank" rel="noopener">Mercado Pago Developers → Credenciales de producción</a>.
+              Se guarda y no se vuelve a mostrar por seguridad.</div>
           </div>
           <div class="field">
             <label>Alias / CBU (respaldo)</label>
             <input id="cAlias" placeholder="migimnasio.mp" />
             <div class="hint">Si no hay token de Mercado Pago, el mensaje invita a transferir a este alias.</div>
           </div>
-          <hr style="border:none;border-top:1px solid var(--line);margin:20px 0;">
+          <hr class="divider">
           <div class="grid2">
             <div class="field">
               <label>Días para avisar "por vencer"</label>
@@ -53,12 +53,12 @@
               <div class="hint">Cuántos días antes del vencimiento se marca "por vencer".</div>
             </div>
             <div class="field">
-              <label>Días para marcar "moroso"</label>
+              <label>Días para marcar "deudor"</label>
               <input id="cMoroso" type="number" min="1" max="120" />
-              <div class="hint">Días desde el último pago hasta considerar al socio moroso.</div>
+              <div class="hint">Días desde el último pago hasta considerar al socio deudor.</div>
             </div>
           </div>
-          <button class="btn" onclick="guardar()" style="margin-top:8px;">Guardar configuración</button>
+          <button class="btn" onclick="guardar()" style="margin-top:6px;">Guardar configuración</button>
         </div>
       </div>
     </main>

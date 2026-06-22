@@ -12,32 +12,34 @@
       <div class="brand">Cuota<span>Club</span></div>
       <div class="gym-name" data-gym-name>…</div>
       <nav>
-        <a href="/dashboard.html" class="active">📊 <span>Dashboard</span></a>
-        <a href="/socios.html">👥 <span>Socios</span></a>
-        <a href="/socios.html?filtro=moroso">⚠️ <span>Morosos</span></a>
-        <a href="/config.html">⚙️ <span>Configuración</span></a>
+        <a href="/dashboard.html" class="active" data-icon="dashboard"><span>Dashboard</span></a>
+        <a href="/socios.html" data-icon="users"><span>Socios</span></a>
+        <a href="/socios.html?filtro=moroso" data-icon="alert"><span>Deudores</span></a>
+        <a href="/config.html" data-icon="settings"><span>Configuración</span></a>
       </nav>
       <div class="spacer"></div>
-      <button class="logout" onclick="logout()">↩ Cerrar sesión</button>
+      <button class="logout" data-icon="logout" onclick="logout()"><span>Salir</span></button>
     </aside>
 
     <main class="main">
       <div class="page-head">
         <div>
           <h1>Dashboard</h1>
-          <div class="sub">Resumen de tu cobranza — <span data-gym-name>…</span></div>
+          <div class="sub">Resumen de tu cobranza · <span data-gym-name>…</span></div>
         </div>
-        <a class="btn" href="/socios.html?filtro=moroso">Cobrar morosos →</a>
+        <div class="head-actions">
+          <a class="btn" href="/socios.html?filtro=moroso" data-icon="wallet" data-icon-size="16"><span>Gestionar deudores</span></a>
+        </div>
       </div>
 
       <div class="kpi-grid" id="kpis"></div>
 
       <div class="card">
-        <div class="card-head"><h3>Acciones rápidas</h3></div>
-        <div style="padding: 20px; display:flex; gap:12px; flex-wrap:wrap;">
-          <a class="btn secondary" href="/socios.html?filtro=por_vencer">Ver socios por vencer</a>
-          <a class="btn secondary" href="/socios.html?filtro=moroso">Ver morosos</a>
-          <a class="btn secondary" href="/socios.html">Gestionar socios</a>
+        <div class="card-head"><h3>Accesos rápidos</h3></div>
+        <div class="card-pad" style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn secondary" href="/socios.html?filtro=por_vencer" data-icon="calendar" data-icon-size="16"><span>Por vencer</span></a>
+          <a class="btn secondary" href="/socios.html?filtro=moroso" data-icon="alert" data-icon-size="16"><span>Deudores</span></a>
+          <a class="btn secondary" href="/socios.html" data-icon="users" data-icon-size="16"><span>Socios</span></a>
         </div>
       </div>
     </main>
