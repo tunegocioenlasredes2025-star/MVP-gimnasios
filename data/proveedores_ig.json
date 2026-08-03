@@ -1,0 +1,709 @@
+[
+ {
+  "ig": "@herramientasmayoristaba",
+  "nombre": "Herramientas Mayorista",
+  "rubro": "Distribuidor mayorista - herramientas",
+  "donde": "Buenos Aires",
+  "info": "Venta mayorista y minorista, envios a todo el pais"
+ },
+ {
+  "ig": "@chiesaherramientas",
+  "nombre": "Chiesa Herramientas",
+  "rubro": "Distribuidor mayorista - herramientas",
+  "donde": "Buenos Aires",
+  "info": "Distribuidor mayorista de herramientas y articulos de ferreteria. Vende SOLO a comercios"
+ },
+ {
+  "ig": "@casaleonindustrial",
+  "nombre": "Casa Leon Distribuidora Mayorista",
+  "rubro": "Distribuidor mayorista - industrial",
+  "donde": "Buenos Aires",
+  "info": "+45 anios. Vende a ferreterias, buloneras y constructoras. Envios a todo el pais"
+ },
+ {
+  "ig": "@ferreteracentral",
+  "nombre": "Ferretera Central",
+  "rubro": "Distribuidor mayorista",
+  "donde": "Buenos Aires",
+  "info": "Distribuidor mayorista, ~2.100 seguidores"
+ },
+ {
+  "ig": "@districon.ferreteriaindustrial",
+  "nombre": "Districon Ferreteria Industrial",
+  "rubro": "Distribuidor mayorista - industrial",
+  "donde": "Buenos Aires",
+  "info": "Mayorista-minorista. Distribuidor oficial ESAB Argentina y Bosch. Envios a todo el pais"
+ },
+ {
+  "ig": "@deltaferreteriaindustrial",
+  "nombre": "Delta Ferreteria Industrial",
+  "rubro": "Distribuidor mayorista - industrial",
+  "donde": "Buenos Aires",
+  "info": "11K seguidores. Maquinas, herramientas y gases. Entregas express"
+ },
+ {
+  "ig": "@zonamayorista.ar",
+  "nombre": "Zona Mayorista",
+  "rubro": "Distribuidor mayorista - buloneria",
+  "donde": "Buenos Aires",
+  "info": "Bulonera profesional mayorista"
+ },
+ {
+  "ig": "@distribuciones.hoyostools",
+  "nombre": "Hoyostools",
+  "rubro": "Importador / distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Importadores y distribuidores directos de electricidad y ferreteria"
+ },
+ {
+  "ig": "@ferredistrimayoristas.g",
+  "nombre": "Ferreteria Distribuidor Mayorista SGS",
+  "rubro": "Distribuidor mayorista",
+  "donde": "Buenos Aires",
+  "info": "Distribuidor mayorista"
+ },
+ {
+  "ig": "@laindustrial.sa",
+  "nombre": "La Industrial Ferreteria - Buloneria",
+  "rubro": "Distribuidor - buloneria",
+  "donde": "Buenos Aires",
+  "info": "Herramientas profesionales"
+ },
+ {
+  "ig": "@sinteplast",
+  "nombre": "Sinteplast",
+  "rubro": "Pinturas - fabricante",
+  "donde": "Buenos Aires (planta)",
+  "info": "154K seguidores. Fabrica nacional de pinturas"
+ },
+ {
+  "ig": "@tersuave",
+  "nombre": "Tersuave (Disal SA)",
+  "rubro": "Pinturas - fabricante",
+  "donde": "Argentina",
+  "info": "254K seguidores. Una de las principales fabricas de pintura del pais"
+ },
+ {
+  "ig": "@poneleplavicon",
+  "nombre": "Plavicon",
+  "rubro": "Pinturas - fabricante",
+  "donde": "Buenos Aires",
+  "info": "30K seguidores"
+ },
+ {
+  "ig": "@pinturasvenier",
+  "nombre": "Pinturas Venier",
+  "rubro": "Pinturas - fabricante",
+  "donde": "Buenos Aires",
+  "info": "41K seguidores"
+ },
+ {
+  "ig": "@pinturasvaccari",
+  "nombre": "Pinturas Vaccari",
+  "rubro": "Pinturas - distribuidor",
+  "donde": "Argentina",
+  "info": "Distribuye Tersuave y Plavicon"
+ },
+ {
+  "ig": "@fv_griferia",
+  "nombre": "FV SA",
+  "rubro": "Griferia - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabricante lider de griferia"
+ },
+ {
+  "ig": "@ferrumsa",
+  "nombre": "Ferrum",
+  "rubro": "Sanitarios - fabricante",
+  "donde": "Buenos Aires",
+  "info": "104K seguidores. Soluciones para bano, cocina y lavadero"
+ },
+ {
+  "ig": "@deltasanitarios",
+  "nombre": "Delta Griferia y Componentes",
+  "rubro": "Griferia - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Griferia y componentes"
+ },
+ {
+  "ig": "@lusqtoff",
+  "nombre": "Lusqtoff",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "300K seguidores. Marca de herramientas, deriva compradores a ferreterias"
+ },
+ {
+  "ig": "@bahcoargentina",
+  "nombre": "Bahco Argentina",
+  "rubro": "Herramientas - marca",
+  "donde": "Santa Fe / Argentina",
+  "info": "132K seguidores"
+ },
+ {
+  "ig": "@kalopargentina",
+  "nombre": "Kalop",
+  "rubro": "Material electrico - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabrica y comercializa productos electricos y conductores"
+ },
+ {
+  "ig": "@cambre.sa",
+  "nombre": "Cambre S.A.",
+  "rubro": "Material electrico - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabricante de material electrico y electronico residencial"
+ },
+ {
+  "ig": "@jeluzargentina",
+  "nombre": "Jeluz Argentina",
+  "rubro": "Material electrico - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabricante de material electrico"
+ },
+ {
+  "ig": "@genrod.ok",
+  "nombre": "Genrod",
+  "rubro": "Material electrico - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Soluciones para instalaciones electricas seguras"
+ },
+ {
+  "ig": "@repcor.srl",
+  "nombre": "RepCor SRL",
+  "rubro": "Material electrico - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "+40 anios. Distribuye Kalop, Sica, Jeluz, Genrod y Candela"
+ },
+ {
+  "ig": "@sistelectric_ok",
+  "nombre": "Sistelectric",
+  "rubro": "Material electrico",
+  "donde": "Buenos Aires",
+  "info": "Material electrico"
+ },
+ {
+  "ig": "@poxipol.ar",
+  "nombre": "Poxipol Argentina",
+  "rubro": "Adhesivos - marca",
+  "donde": "Buenos Aires",
+  "info": "Adhesivo epoxi, marca de altisima rotacion en ferreterias"
+ },
+ {
+  "ig": "@tacsaargentina",
+  "nombre": "Tacsa Argentina",
+  "rubro": "Cintas y adhesivos - fabricante",
+  "donde": "Buenos Aires",
+  "info": "20K seguidores. Cintas, adhesivos, fijaciones y selladores"
+ },
+ {
+  "ig": "@adhesivosfixol",
+  "nombre": "Adhesivos Fixol",
+  "rubro": "Adhesivos - fabricante",
+  "donde": "Buenos Aires",
+  "info": "+30 anios fabricando adhesivos, revestimientos y aditivos"
+ },
+ {
+  "ig": "@cerradurasprive",
+  "nombre": "Cerraduras Prive",
+  "rubro": "Cerraduras - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Desde 1928. Cerraduras, cerrojos y candados"
+ },
+ {
+  "ig": "@kallayarg",
+  "nombre": "Kallay",
+  "rubro": "Cerraduras - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Desde 1946. Cerraduras, cerrojos y candados"
+ },
+ {
+  "ig": "@cerraduraskl",
+  "nombre": "Cerraduras KL",
+  "rubro": "Cerraduras - fabricante",
+  "donde": "Buenos Aires",
+  "info": "+26 anios en cerraduras y seguridad"
+ },
+ {
+  "ig": "@trabex_sa",
+  "nombre": "Trabex SA",
+  "rubro": "Cerraduras - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Cerraduras, linea TBX Smart"
+ },
+ {
+  "ig": "@dowenpagio",
+  "nombre": "Dowen Pagio Herramientas",
+  "rubro": "Herramientas electricas - marca",
+  "donde": "Buenos Aires",
+  "info": "193K seguidores. Desarrollo, construccion y comercializacion de herramientas electricas"
+ },
+ {
+  "ig": "@crossmaster",
+  "nombre": "Crossmaster Latinoamerica",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "190K seguidores. +30 anios fabricando herramientas de mano"
+ },
+ {
+  "ig": "@gammaherramientasarg",
+  "nombre": "Gamma Herramientas",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "133K seguidores. Marca argentina de herramientas"
+ },
+ {
+  "ig": "@bremen_tools",
+  "nombre": "Bremen Tools",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "235K seguidores. +30 anios en herramientas manuales"
+ },
+ {
+  "ig": "@cegateam",
+  "nombre": "Cega Team Herramientas",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "Herramientas"
+ },
+ {
+  "ig": "@dowenpagioracing",
+  "nombre": "Dowen Pagio Racing",
+  "rubro": "Herramientas - marca (sponsoreo)",
+  "donde": "Buenos Aires",
+  "info": "Brazo deportivo de Dowen Pagio - hacen mucha accion de marca"
+ },
+ {
+  "ig": "@tigreargoficial",
+  "nombre": "Tigre Argentina",
+  "rubro": "Caños y PVC - fabricante",
+  "donde": "Buenos Aires",
+  "info": "11K seguidores. Caños y accesorios"
+ },
+ {
+  "ig": "@rotoplasargentina",
+  "nombre": "Rotoplas Argentina",
+  "rubro": "Tanques de agua - fabricante",
+  "donde": "Buenos Aires",
+  "info": "29K seguidores. Almacenamiento, conduccion y purificacion de agua"
+ },
+ {
+  "ig": "@awaduct",
+  "nombre": "Awaduct",
+  "rubro": "Caños y desagues - fabricante",
+  "donde": "Buenos Aires",
+  "info": "20K seguidores. Lider en conduccion de desagues cloacales y pluviales"
+ },
+ {
+  "ig": "@tuboforteargentina",
+  "nombre": "Tuboforte",
+  "rubro": "Caños - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Tubos y accesorios para agua potable, desagues, acueductos y riego"
+ },
+ {
+  "ig": "@macroled.ar",
+  "nombre": "Macroled",
+  "rubro": "Iluminacion LED - fabricante",
+  "donde": "Buenos Aires",
+  "info": "52K seguidores. Lider en iluminacion led"
+ },
+ {
+  "ig": "@interelec.ar",
+  "nombre": "Distribuidora Interelec",
+  "rubro": "Iluminacion / electrico - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Distribuidora de lamparas LED y material electrico"
+ },
+ {
+  "ig": "@alic.argentina",
+  "nombre": "Alic Argentina",
+  "rubro": "Iluminacion - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Lamparas LED smart"
+ },
+ {
+  "ig": "@iluminacioncandela",
+  "nombre": "Iluminacion Candela",
+  "rubro": "Iluminacion - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Marca de iluminacion"
+ },
+ {
+  "ig": "@esab_argentina",
+  "nombre": "ESAB Argentina",
+  "rubro": "Soldadura - fabricante",
+  "donde": "Buenos Aires",
+  "info": "19K seguidores. Lider mundial en soldadura y corte. Fabrica electrodos Conarco"
+ },
+ {
+  "ig": "@lincolnelectriclatinoamerica",
+  "nombre": "Lincoln Electric Latinoamerica",
+  "rubro": "Soldadura - fabricante",
+  "donde": "Argentina / LATAM",
+  "info": "15K seguidores. Soldadura y corte"
+ },
+ {
+  "ig": "@soldadorasesab",
+  "nombre": "Soldadoras ESAB",
+  "rubro": "Soldadura - marca",
+  "donde": "Argentina",
+  "info": "Cuenta de producto de ESAB"
+ },
+ {
+  "ig": "@isadar_buldar",
+  "nombre": "Isadar / Buldar - Fabrica de Fijaciones",
+  "rubro": "Bulones y fijaciones - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Tirafondos, bulones, tuercas, arandelas, varillas. Venta mayorista, envios a todo el pais"
+ },
+ {
+  "ig": "@sangalo.fijaciones",
+  "nombre": "Sangalo Fijaciones",
+  "rubro": "Fijaciones - importador",
+  "donde": "Buenos Aires",
+  "info": "Importador y distribuidor de articulos para ferreterias. Marcas PATTA, TJ-Weld, PY"
+ },
+ {
+  "ig": "@torniweb",
+  "nombre": "Torniweb - Tornillos y Bulones",
+  "rubro": "Bulones - distribuidor",
+  "donde": "CABA",
+  "info": "Tornillos y bulones"
+ },
+ {
+  "ig": "@magazinebulonero",
+  "nombre": "Magazine Bulonero",
+  "rubro": "Medio del sector bulonero",
+  "donde": "Buenos Aires",
+  "info": "Medio especializado - conecta fabricantes y distribuidores de bulones"
+ },
+ {
+  "ig": "@fercorfijaciones",
+  "nombre": "Fercor Fijaciones SRL",
+  "rubro": "Fijaciones - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Ferreteria industrial, maquinas, herramientas y bulones. Envios a todo el pais"
+ },
+ {
+  "ig": "@ommseguridadindustrial",
+  "nombre": "OMM Seguridad Industrial y Vial",
+  "rubro": "Seguridad industrial - proveedor",
+  "donde": "Buenos Aires",
+  "info": "Seguridad industrial y vial, indumentaria, ferreteria. Venta directa de fabrica"
+ },
+ {
+  "ig": "@tienda.ombu",
+  "nombre": "Ombu - Ropa de trabajo",
+  "rubro": "Ropa de trabajo - marca",
+  "donde": "Buenos Aires",
+  "info": "Marca lider de ropa de trabajo en Argentina"
+ },
+ {
+  "ig": "@indutec_indumentaria",
+  "nombre": "Indutec Indumentaria",
+  "rubro": "Ropa de trabajo - fabricante",
+  "donde": "Cordoba",
+  "info": "Fabrica y distribuye indumentaria de proteccion laboral"
+ },
+ {
+  "ig": "@soyconfecat",
+  "nombre": "Confecat Seguridad + Confort",
+  "rubro": "Ropa de trabajo - fabricante",
+  "donde": "Catamarca",
+  "info": "Visten trabajadores desde 1983, asociados a marca Ombu"
+ },
+ {
+  "ig": "@einhell_argentina",
+  "nombre": "Einhell Argentina",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "143K seguidores. Marca de herramientas electricas"
+ },
+ {
+  "ig": "@herramientas.einhell",
+  "nombre": "Herramientas Einhell (distribuidor oficial)",
+  "rubro": "Herramientas - distribuidor oficial",
+  "donde": "Buenos Aires",
+  "info": "31K seguidores. Envios a todo el pais"
+ },
+ {
+  "ig": "@boschherramientasar",
+  "nombre": "Bosch Herramientas Argentina",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "149K seguidores. Cuenta oficial Argentina"
+ },
+ {
+  "ig": "@stanley.latam",
+  "nombre": "Stanley Herramientas LATAM",
+  "rubro": "Herramientas - marca",
+  "donde": "Argentina / LATAM",
+  "info": "162K seguidores"
+ },
+ {
+  "ig": "@blackanddeckerhogar.ar",
+  "nombre": "Black+Decker Hogar Argentina",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "55K seguidores. Cuenta Argentina"
+ },
+ {
+  "ig": "@blackanddeckerlatam",
+  "nombre": "Black+Decker LATAM",
+  "rubro": "Herramientas - marca",
+  "donde": "Argentina / LATAM",
+  "info": "Cuenta oficial LATAM"
+ },
+ {
+  "ig": "@dellavalle.ferreteria",
+  "nombre": "Della Valle",
+  "rubro": "Importador / distribuidor mayorista",
+  "donde": "Buenos Aires",
+  "info": "Distribuidor mayorista e importador oficial de INGCO en Argentina"
+ },
+ {
+  "ig": "@sp.tools",
+  "nombre": "SP Tools",
+  "rubro": "Herramientas - importador",
+  "donde": "Buenos Aires",
+  "info": "Importador de herramientas"
+ },
+ {
+  "ig": "@herramientasbrink",
+  "nombre": "Herramientas Brink",
+  "rubro": "Herramientas - marca",
+  "donde": "Buenos Aires",
+  "info": "Marca de herramientas"
+ },
+ {
+  "ig": "@ferremixargentina",
+  "nombre": "Ferremix Argentina",
+  "rubro": "Distribuidor - ferreteria industrial",
+  "donde": "Moreno, Buenos Aires - Av. Bartolome Mitre 2322",
+  "info": "Maquinas y herramientas. Vende a todo el pais"
+ },
+ {
+  "ig": "@argencort",
+  "nombre": "Cortadoras Argentinas S.A. (Argencort)",
+  "rubro": "Maquinas de corte - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabricantes de cortadoras de metales a sierra sin fin"
+ },
+ {
+  "ig": "@nortonabrasivosargentina",
+  "nombre": "Norton Abrasivos Argentina",
+  "rubro": "Abrasivos - fabricante",
+  "donde": "Buenos Aires",
+  "info": "+140 anios de trayectoria fabricando abrasivos"
+ },
+ {
+  "ig": "@rosarioabrasivos",
+  "nombre": "Rosario Abrasivos",
+  "rubro": "Abrasivos - fabricante/distribuidor",
+  "donde": "Rosario, Santa Fe",
+  "info": "Fabricantes y distribuidores oficiales de marcas lideres"
+ },
+ {
+  "ig": "@revistaferreteros",
+  "nombre": "Revista Ferreteros (CAFARA)",
+  "rubro": "Medio del sector",
+  "donde": "Buenos Aires",
+  "info": "12K seguidores. Revista oficial de CAFARA, version impresa y digital. HACEN PAUTA"
+ },
+ {
+  "ig": "@expoferreteraar",
+  "nombre": "Expo Ferretera Argentina",
+  "rubro": "Feria del sector",
+  "donde": "Buenos Aires - La Rural",
+  "info": "19K seguidores. Expo internacional de articulos de ferreteria, sanitarios, pinturerias y materiales"
+ },
+ {
+  "ig": "@cafara.org.ar",
+  "nombre": "CAFARA - Camara de Ferreterias y Afines",
+  "rubro": "Camara del sector",
+  "donde": "Buenos Aires",
+  "info": "Institucion sin fines de lucro que representa la cadena de valor del sector ferretero"
+ },
+ {
+  "ig": "@revistaelferretero",
+  "nombre": "Revista El Ferretero - Ferretexpo",
+  "rubro": "Medio del sector",
+  "donde": "Buenos Aires",
+  "info": "Revista del sector + organiza Ferretexpo. HACEN PAUTA"
+ },
+ {
+  "ig": "@revistacodigoferretero",
+  "nombre": "Revista Codigo Ferretero",
+  "rubro": "Medio del sector",
+  "donde": "Buenos Aires",
+  "info": "Revista del sector ferretero. HACEN PAUTA"
+ },
+ {
+  "ig": "@camaraferretera",
+  "nombre": "Camara Ferretera Nacional",
+  "rubro": "Camara del sector",
+  "donde": "Argentina",
+  "info": "Camara nacional del sector"
+ },
+ {
+  "ig": "@camaradeferreterias.cba",
+  "nombre": "Camara de Ferreterias de Cordoba",
+  "rubro": "Camara del sector",
+  "donde": "Cordoba",
+  "info": "Camara provincial"
+ },
+ {
+  "ig": "@encuentro_ferretero",
+  "nombre": "Encuentro Ferretero",
+  "rubro": "Feria del sector",
+  "donde": "Itinerante (proxima Mar del Plata)",
+  "info": "5.948 seguidores. Exposicion itinerante y federal de maquinas, herramientas y articulos de ferreteria"
+ },
+ {
+  "ig": "@herrajesarena",
+  "nombre": "Herrajes Arena",
+  "rubro": "Herrajes - fabricante",
+  "donde": "Buenos Aires",
+  "info": "+60 anios abasteciendo el mercado. Herrajes para obras y muebles"
+ },
+ {
+  "ig": "@delsurherrajes",
+  "nombre": "Del Sur Herrajes",
+  "rubro": "Herrajes - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabricante de manijas, pomos y accesorios para la industria del mueble"
+ },
+ {
+  "ig": "@sidanez_herrajes",
+  "nombre": "Sidanez Herrajes",
+  "rubro": "Herrajes - fabricante",
+  "donde": "La Tablada, Buenos Aires",
+  "info": "Fabrica de herrajes para obra y mueble"
+ },
+ {
+  "ig": "@pautalia.herrajes",
+  "nombre": "Distribuidora Pautalia Herrajes",
+  "rubro": "Herrajes - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Referente nacional en la industria del herraje"
+ },
+ {
+  "ig": "@herrajescrovara",
+  "nombre": "Herrajes Crovara",
+  "rubro": "Herrajes - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Venta de herrajes para muebles y obras"
+ },
+ {
+  "ig": "@alceherrajes.ar",
+  "nombre": "Alce Herrajes Argentina",
+  "rubro": "Herrajes - distribuidor",
+  "donde": "San Martin, Buenos Aires",
+  "info": "Herrajes"
+ },
+ {
+  "ig": "@lafabricaherrajes",
+  "nombre": "La Fabrica Herrajes",
+  "rubro": "Herrajes - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Empresa familiar con 40 anios en el rubro"
+ },
+ {
+  "ig": "@herralum.aberturas",
+  "nombre": "Herralum Aberturas",
+  "rubro": "Aberturas - fabricante",
+  "donde": "Buenos Aires",
+  "info": "Fabrica de aberturas de aluminio"
+ },
+ {
+  "ig": "@rosarioherrajes",
+  "nombre": "Rosario Herrajes",
+  "rubro": "Herrajes - distribuidor",
+  "donde": "Rosario, Santa Fe",
+  "info": "Herrajes para muebles, obra, sanitarios y aberturas"
+ },
+ {
+  "ig": "@marcu_sa",
+  "nombre": "Marcu SA - Centro Tecnico Sika",
+  "rubro": "Quimicos construccion - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "+20 anios. Distribuidor oficial Sika, impermeabilizacion y pisos industriales"
+ },
+ {
+  "ig": "@tecnocolon",
+  "nombre": "Tecnocolon",
+  "rubro": "Quimicos construccion - distribuidor",
+  "donde": "Cordoba",
+  "info": "Distribuidor oficial Sika, Weber, Megaflex y Ormiflex"
+ },
+ {
+  "ig": "@imperbau_impermeabilizantes",
+  "nombre": "Imperbau Impermeabilizantes",
+  "rubro": "Impermeabilizantes - marca",
+  "donde": "Buenos Aires",
+  "info": "Marca registrada de impermeabilizantes"
+ },
+ {
+  "ig": "@husqvarna.ar",
+  "nombre": "Husqvarna Argentina",
+  "rubro": "Jardin y forestal - marca",
+  "donde": "Buenos Aires",
+  "info": "46K seguidores. Motoimplementos para forestal, jardin y construccion"
+ },
+ {
+  "ig": "@canoriegoyjardin",
+  "nombre": "Cano Riego y Jardin",
+  "rubro": "Riego y jardin - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Motoguadanas, bordeadoras y riego"
+ },
+ {
+  "ig": "@distribuidorafrancofia",
+  "nombre": "Distribuidora Sanitarios Franco Fia",
+  "rubro": "Sanitarios - distribuidor mayorista",
+  "donde": "Buenos Aires",
+  "info": "Mayorista de sanitarios. Vende a casas de sanitarios, corralones y FERRETERIAS. Envios a todo el pais"
+ },
+ {
+  "ig": "@almagromayorista",
+  "nombre": "Almagro Mayorista Sanitarios y Ferreteria",
+  "rubro": "Sanitarios y ferreteria - mayorista",
+  "donde": "Valentin Alsina y Lanus, Buenos Aires",
+  "info": "Fabricacion, importacion y distribucion. Envios a todo el pais"
+ },
+ {
+  "ig": "@electricidadnico",
+  "nombre": "Electricidad Nico",
+  "rubro": "Material electrico - distribuidor mayorista",
+  "donde": "Buenos Aires",
+  "info": "Distribuidor mayorista ferretero de electricidad"
+ },
+ {
+  "ig": "@elektrostagliano.distribuidora",
+  "nombre": "Elektro Stagliano Distribuidora",
+  "rubro": "Material electrico - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Distribuidora de material electrico"
+ },
+ {
+  "ig": "@mc_distribuidores",
+  "nombre": "MC Distribuidores",
+  "rubro": "Sanitarios - distribuidor",
+  "donde": "Buenos Aires",
+  "info": "Venta de sanitarios"
+ },
+ {
+  "ig": "@medidgeneraldemedicion",
+  "nombre": "Medid - General de Medicion",
+  "rubro": "Instrumentos de medicion - proveedor",
+  "donde": "Buenos Aires",
+  "info": "Desde 1932. Laseres, niveles e instrumentos de medicion profesionales"
+ },
+ {
+  "ig": "@ferreteriamilani",
+  "nombre": "Ferreteria Industrial Milani",
+  "rubro": "Ferreteria industrial / proveedor",
+  "donde": "Buenos Aires",
+  "info": "Ferreteria industrial"
+ }
+]

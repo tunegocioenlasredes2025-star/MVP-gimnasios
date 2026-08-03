@@ -1,0 +1,3038 @@
+[
+ {
+  "ig": "@barracaituzaingo",
+  "nombre": "Barraca Ituzaingo / Ferreteria Ituzaingo",
+  "donde": "Ituzaingo - Av. Ituzaingo e/ Elias Regules y Plazoleta Martin Fierro",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@h30ferreteria.ituzaingo",
+  "nombre": "H30 Ferreteria Express",
+  "donde": "Ituzaingo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@nhmconstruccion",
+  "nombre": "NHM Construccion - Corralon y Ferreteria",
+  "donde": "Ituzaingo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@delferroviariomateriales",
+  "nombre": "Del Ferroviario Materiales",
+  "donde": "Ituzaingo - Brandsen 1365",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriavictoria_",
+  "nombre": "Ferreteria Victoria",
+  "donde": "Castelar",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_hidalgo.castelar",
+  "nombre": "Ferreteria Hidalgo",
+  "donde": "Castelar",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_haedo",
+  "nombre": "Ferreteria Haedo",
+  "donde": "Haedo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamele",
+  "nombre": "Ferreteria MELE",
+  "donde": "Haedo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrecasamenendez",
+  "nombre": "Casa Menendez",
+  "donde": "Haedo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaradielec",
+  "nombre": "Radielec (Daniel Digangi)",
+  "donde": "Haedo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriatotal",
+  "nombre": "Ferreteria Total Moron",
+  "donde": "Moron centro",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@laferreteriaypintureria",
+  "nombre": "La Ferreteria y Pintureria",
+  "donde": "Moron - Belgrano 497",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasolano",
+  "nombre": "Ferreteria Solano",
+  "donde": "Moron",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriadaleo",
+  "nombre": "Ferreteria Daleo",
+  "donde": "Moron",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferre.elcosito",
+  "nombre": "Ferreteria El Cosito",
+  "donde": "Hurlingham - Av. Vergara 4124",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.roga",
+  "nombre": "Ferreteria ROGA",
+  "donde": "Hurlingham",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialaplaza",
+  "nombre": "Ferreteria La Plaza",
+  "donde": "Hurlingham - Av. Roca 1205",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralonelportugues",
+  "nombre": "El Portugues - Ferreteria y +",
+  "donde": "Hurlingham",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.merlo",
+  "nombre": "Ferreteria Merlo",
+  "donde": "Merlo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamarmat",
+  "nombre": "Ferreteria Marmat (aberturas)",
+  "donde": "Merlo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@promeconsrl",
+  "nombre": "Promecon SRL - Ferreteria industrial",
+  "donde": "Merlo - Constitucion 805 / Ruta 200",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@bulmaq_srl",
+  "nombre": "Bulmaq SRL - Ferreteria industrial",
+  "donde": "Merlo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrepadua_",
+  "nombre": "Ferreteria Padua C.A.",
+  "donde": "San Antonio de Padua",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaoscari",
+  "nombre": "Ferreteria Oscar I",
+  "donde": "San Antonio de Padua - Noguera 540",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaramosmejia",
+  "nombre": "Ferreteria Ramos Mejia",
+  "donde": "Ramos Mejia",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaybuloneraramosmejia",
+  "nombre": "Ferreteria y Bulonera Ramos Mejia",
+  "donde": "Ramos Mejia",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferremoya",
+  "nombre": "Ferreteria Casa Moya",
+  "donde": "Ciudadela",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@zanotti.ferreteria",
+  "nombre": "Zanotti Ferreteria",
+  "donde": "Caseros",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.pablo",
+  "nombre": "Ferreteria y Cerrajeria Pablo",
+  "donde": "Tres de Febrero - Tres de Febrero 3010",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasanjusto",
+  "nombre": "Ferreteria San Justo",
+  "donde": "San Justo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaprimerano",
+  "nombre": "Ferreteria Primerano",
+  "donde": "San Justo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@symeg_ferreteria_industrial",
+  "nombre": "Symeg - Ferreteria Industrial / Bulonera",
+  "donde": "La Tablada - Av. Crovara 3516",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.el15",
+  "nombre": "Ferreteria El 15 - Sanitarios y Electricidad",
+  "donde": "Villa Luzuriaga",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaboulevardsm",
+  "nombre": "Ferreteria Boulevard",
+  "donde": "Bella Vista (San Miguel)",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaargentina16",
+  "nombre": "Ferreteria Argentina",
+  "donde": "Jose C. Paz - Av. H. Yrigoyen 4236 y 2279",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@flaslatas_gr",
+  "nombre": "Ferreteria Las Latas",
+  "donde": "General Rodriguez",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@laferreterialujan",
+  "nombre": "La Ferreteria Lujan",
+  "donde": "Lujan",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_cerrajeriaescalada",
+  "nombre": "Ferreteria-Cerrajeria Escalada",
+  "donde": "CABA - Villa Luro, Escalada 585",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteria_del_parque",
+  "nombre": "Ferreteria del Parque",
+  "donde": "CABA - Villa del Parque, Nogoya 3402",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriabuenosaires",
+  "nombre": "Ferreteria Buenos Aires",
+  "donde": "CABA",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@zonamayorista.ar",
+  "nombre": "Zona Mayorista - Bulonera profesional",
+  "donde": "Buenos Aires (mayorista)",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrelaindustrial",
+  "nombre": "Ferreteria La Industrial",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@centrodemateriales",
+  "nombre": "Centro de Materiales",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@deltaferreteriaindustrial",
+  "nombre": "Delta Ferreteria Industrial",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@laindustrial.sa",
+  "nombre": "La Industrial - Ferreteria y Buloneria",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaituzaingo",
+  "nombre": "Ferreteria Ituzaingo",
+  "donde": "Rosario, Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@casamartinferreteria",
+  "nombre": "Casa Martin - Ferreteria y Pintureria",
+  "donde": "Recreo, Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaargentina",
+  "nombre": "Tu Ferreteria Argentina",
+  "donde": "Villa Carlos Paz, Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferremoreno149",
+  "nombre": "Ferreteria Moreno",
+  "donde": "Parana, Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@liniers.ferreteria",
+  "nombre": "Liniers Ferreteria",
+  "donde": "Mendoza",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@laferreteriadevilla",
+  "nombre": "La Ferreteria de Villa",
+  "donde": "Cipolletti, Rio Negro",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@ferr.eteriasanantonio",
+  "nombre": "Ferreteria San Antonio",
+  "donde": "Media Agua, San Juan",
+  "prov": "San Juan"
+ },
+ {
+  "ig": "@ferreteriamitreavellaneda",
+  "nombre": "Ferreteria Mitre Avellaneda",
+  "donde": "Avellaneda",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialanusehijos",
+  "nombre": "Ferreteria Lanus e Hijos S.A.",
+  "donde": "Lanus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_san_martin_lanus",
+  "nombre": "Ferreteria San Martin Lanus",
+  "donde": "Lanus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrindus.industrial",
+  "nombre": "Ferrindus - Ferreteria Industrial",
+  "donde": "Villa Dominico, Avellaneda",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.rosita",
+  "nombre": "Ferreteria Rosita",
+  "donde": "Lanus Oeste - Av. Rivadavia 1561",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@dedosindustrial",
+  "nombre": "Ferreteria Industrial DeDos",
+  "donde": "Lanus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrimatlomas",
+  "nombre": "Ferreteria Ferrimat",
+  "donde": "Lomas de Zamora",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacm_banfield",
+  "nombre": "Ferreteria CM",
+  "donde": "Banfield",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@elabueloferreteria",
+  "nombre": "Ferreteria El Abuelo",
+  "donde": "Banfield - M. Rodriguez 1501 y 2491",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamario",
+  "nombre": "Ferreteria Mario",
+  "donde": "Zona sur GBA",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaquilmes",
+  "nombre": "Ferreteria Quilmes",
+  "donde": "Quilmes Este - Lavalle 1434",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@la_ferreteria_quilmes",
+  "nombre": "La Ferreteria Quilmes",
+  "donde": "Quilmes",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamarquiz",
+  "nombre": "Ferreteria Marquiz",
+  "donde": "Bernal",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.dz",
+  "nombre": "Ferreteria DZ",
+  "donde": "Berazategui / Varela / Quilmes",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasanisidro_oficial",
+  "nombre": "Ferreteria San Isidro",
+  "donde": "San Isidro",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@grupo_san_isidro",
+  "nombre": "Ferreteria San Isidro (desde 1981)",
+  "donde": "San Isidro",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriazonanorte",
+  "nombre": "Ferreteria Zona Norte",
+  "donde": "Olivos - Av. Maipu 3175",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasdelrio",
+  "nombre": "Ferreterias del Rio",
+  "donde": "Tigre",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@eltigre_ferreteria",
+  "nombre": "Ferreteria El Tigre",
+  "donde": "Junin",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.pilar",
+  "nombre": "Ferreteria Pilar",
+  "donde": "Pilar",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@tauro.ferreteria",
+  "nombre": "Ferreteria Tauro",
+  "donde": "Del Viso",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaindpilar",
+  "nombre": "Ferreteria Industrial Pilar",
+  "donde": "Pilar",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@bulonera.garin",
+  "nombre": "Bulonera Industrial Garin",
+  "donde": "Garin",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasanmartinoficial",
+  "nombre": "Ferreteria San Martin",
+  "donde": "Colon 502 esq. Sarmiento",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasanmartin.tqt",
+  "nombre": "Ferreteria y Corralon San Martin",
+  "donde": "Tornquist",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialp",
+  "nombre": "Ferreteria La Plata",
+  "donde": "La Plata - 19 y 60",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrelaplata",
+  "nombre": "Ferreteria La Plata",
+  "donde": "La Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.laplatense",
+  "nombre": "Ferreteria La Platense",
+  "donde": "La Plata - 31 n 776 e/ 47 y 48",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_monumental_laplata",
+  "nombre": "Ferreteria Monumental",
+  "donde": "La Plata - 54 #1560",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferre_lalucha",
+  "nombre": "Ferreteria La Lucha - Herramientas",
+  "donde": "La Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@timossi_ferreteria",
+  "nombre": "Ferreteria 44 Timossi",
+  "donde": "La Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabranchesi",
+  "nombre": "Ferreteria Industrial Branchesi",
+  "donde": "La Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.martin",
+  "nombre": "Ferreteria Martin Industrial",
+  "donde": "La Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriadelmercadocaballito",
+  "nombre": "Ferreteria del Mercado",
+  "donde": "Caballito - Av. Pedro Goyena 695",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteria_caballito",
+  "nombre": "Ferreteria Caballito",
+  "donde": "Caballito",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriaalmagro",
+  "nombre": "Ferreteria Almagro",
+  "donde": "Almagro - Rawson 17",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriabelgrano2",
+  "nombre": "Ferreteria Belgrano",
+  "donde": "Belgrano - M. Ugarte 2391 / Zapiola 2468",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@tiendalumeferreteria",
+  "nombre": "Tienda Lume Ferreteria",
+  "donde": "Villa Urquiza",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@palermoferreteria",
+  "nombre": "Ferreteria Palermo",
+  "donde": "Quilmes / Ituzaingo / San Fco Solano",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria228",
+  "nombre": "Ferreteria 228",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacorvalan",
+  "nombre": "Ferreteria Corvalan",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@losacantiladosferreteria",
+  "nombre": "Los Acantilados Ferreteria",
+  "donde": "Mar del Plata - Calle 493 n 491",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@mdqferreteria",
+  "nombre": "Ferreteria MDQ",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@macroferpaseoferretero",
+  "nombre": "Ferreteria Macrofer",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriatotalhugobenitez",
+  "nombre": "Ferreteria Total - Hugo Benitez",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaelcine",
+  "nombre": "Ferreteria El Cine",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaferromar",
+  "nombre": "Ferreteria Ferromar",
+  "donde": "Mar del Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrebahiablanca",
+  "nombre": "Ferreteria Bahia Blanca",
+  "donde": "Bahia Blanca",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacentro.ar",
+  "nombre": "Ferreteria Centro",
+  "donde": "Bahia Blanca centro",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.alcain",
+  "nombre": "Ferreteria Alcain",
+  "donde": "Bahia Blanca - Villa Mitre, Cap. Martinez 1586",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@fbahiablanca",
+  "nombre": "Bahia Blanca Ferreteria",
+  "donde": "Bahia Blanca - La Merced 400",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabahiablanca",
+  "nombre": "Ferreteria Bahia Blanca",
+  "donde": "Bahia Blanca",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@h30ferreteriaexpress",
+  "nombre": "H30 Ferreteria Bahia Blanca",
+  "donde": "Bahia Blanca",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaquintanabb",
+  "nombre": "Ferreteria Quintana",
+  "donde": "Bahia Blanca",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_signos",
+  "nombre": "Ferreteria Signos",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteria.stylfer",
+  "nombre": "Stylfer Ferreteria",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@h30ferreteriasf",
+  "nombre": "Ferreteria H30 Santa Fe",
+  "donde": "Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaexpressrosario",
+  "nombre": "Ferreteria Express",
+  "donde": "Rosario - San Martin 3366",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriapuerto.nuevo",
+  "nombre": "Ferreteria Puerto Nuevo",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@rocaferreteria.home",
+  "nombre": "Roca Ferreteria & Home",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferremax.rosario",
+  "nombre": "Ferremax distribuidor",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaelhalcon",
+  "nombre": "Ferreteria El Halcon",
+  "donde": "Cordoba Capital",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriaelsotano",
+  "nombre": "Ferreteria El Sotano",
+  "donde": "Cordoba Capital - Av. Colon 5034 / Rivadavia 269",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria_cordoba_",
+  "nombre": "Ferreteria Cordoba",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@el_tio_ferreteria",
+  "nombre": "Ferreteria El Tio",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria.je",
+  "nombre": "Ferreteria JE",
+  "donde": "Freyre",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@trapoteferreteria",
+  "nombre": "Trapote Ferreteria",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriacivalero",
+  "nombre": "Ferreteria Civalero",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@encuentra.ferreteria",
+  "nombre": "Ferreteria Encuentra",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria_mendoza02",
+  "nombre": "Ferreteria Mendoza",
+  "donde": "Mendoza",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@el.ferretazo",
+  "nombre": "Ferretazo - Herrajes y Ferreteria",
+  "donde": "Mendoza",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@ferreteriamendoza",
+  "nombre": "Ferrenort",
+  "donde": "Mendoza - 4ta seccion",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@bulonera_mendoza",
+  "nombre": "Ferreteria Industrial y Bulonera",
+  "donde": "Mendoza",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@ferreteria_4_hnos",
+  "nombre": "Ferreteria 4 Hermanos",
+  "donde": "Mendoza - Av. Mitre 3470",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@suriferreteria",
+  "nombre": "Suri Ferreteria Industrial",
+  "donde": "Mendoza",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@luqueferreteria",
+  "nombre": "Luque Ferreteria",
+  "donde": "San Miguel de Tucuman",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@la_ferreteriasrl",
+  "nombre": "La Ferreteria SRL",
+  "donde": "Tucuman - Av. Belgrano 1498",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@ferreteriasjyj.tuc",
+  "nombre": "Ferreterias J&J Tucuman",
+  "donde": "Tucuman",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@ferreterias.jyj",
+  "nombre": "Ferreterias J&J",
+  "donde": "Salta Capital - Urquiza 1107",
+  "prov": "Salta"
+ },
+ {
+  "ig": "@ferreteriatoba",
+  "nombre": "TOBA Ferreteria",
+  "donde": "Jujuy - Salta 1292",
+  "prov": "Jujuy"
+ },
+ {
+  "ig": "@ferrotemple",
+  "nombre": "Ferreteria Neuquen (Ferrotemple)",
+  "donde": "Neuquen - Leguizamon 345",
+  "prov": "Neuquen"
+ },
+ {
+  "ig": "@ferreteriafebus",
+  "nombre": "Ferreteria Febus",
+  "donde": "Bariloche - Av. Bustillo km 13.069",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@ferreterianuevonorte",
+  "nombre": "Ferreteria Nuevo Norte",
+  "donde": "Cipolletti - Fray M. Esquiu 961",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@pintureriamicolor",
+  "nombre": "Pintureria y Ferreteria Mi Color",
+  "donde": "Rio Negro / Neuquen",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@ferreteriamapu",
+  "nombre": "Ferreteria MAPU",
+  "donde": "Neuquen",
+  "prov": "Neuquen"
+ },
+ {
+  "ig": "@ferreteriacorralonloshermanos",
+  "nombre": "Ferreteria y Corralon Los Hermanos",
+  "donde": "Cipolletti",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@ferreteriaargentinamadryn",
+  "nombre": "Ferreteria Argentina Puerto Madryn",
+  "donde": "Puerto Madryn",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@ferreteriaargentinasrl",
+  "nombre": "Ferreteria Argentina SRL",
+  "donde": "Esquel / Trevelin / Puerto Madryn",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@ferreteriamegijo",
+  "nombre": "Ferreteria Megijo",
+  "donde": "Puerto Madryn",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@ferreteriadenadei",
+  "nombre": "Ferreteria Denadei",
+  "donde": "Trelew",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@ferrimundo",
+  "nombre": "Ferrimundo",
+  "donde": "Comodoro Rivadavia",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@ferremiguelparana",
+  "nombre": "Ferreteria Miguel",
+  "donde": "Parana - Av. Zanni 1080",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteriadelparana",
+  "nombre": "Ferreteria del Parana",
+  "donde": "Parana",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@mtferreteria",
+  "nombre": "Ferreteria Mettler",
+  "donde": "Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteriachurruarin",
+  "nombre": "Churruarin Ferreteria",
+  "donde": "Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@fazziorural",
+  "nombre": "Fazzio - Ferreteria y articulos rurales",
+  "donde": "Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@bourlot.maxiferreteria",
+  "nombre": "Bourlot Maxiferreteria",
+  "donde": "Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteriaaguilar",
+  "nombre": "Ferreteria Industrial Aguilar",
+  "donde": "Posadas - Av. Uruguay 4852",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreteriajbposadas",
+  "nombre": "Ferreteria JB",
+  "donde": "Posadas",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@argentinaferreteria",
+  "nombre": "Ferreteria Argentina",
+  "donde": "Posadas - Av. Rademacher 3832",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferromisiones",
+  "nombre": "Ferromisiones",
+  "donde": "Misiones",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreteriacentroposadas",
+  "nombre": "Ferreteria Centro Posadas",
+  "donde": "Posadas",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreterianorteposadas",
+  "nombre": "Ferreteria Norte I & II",
+  "donde": "Posadas",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferroposadas",
+  "nombre": "Ferro Posadas",
+  "donde": "Posadas",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreterialacatamarca",
+  "nombre": "Ferreteria La Catamarca",
+  "donde": "San Luis - Catamarca esq. Martin de Loyola",
+  "prov": "San Luis"
+ },
+ {
+  "ig": "@ferreteria1sanjuan",
+  "nombre": "Ferreteria San Juan",
+  "donde": "San Juan - Manuel Rodriguez 64, Villa Alegre",
+  "prov": "San Juan"
+ },
+ {
+  "ig": "@ferreteria_rioja",
+  "nombre": "Ferreteria Rioja",
+  "donde": "La Rioja",
+  "prov": "La Rioja"
+ },
+ {
+  "ig": "@santarosa.online",
+  "nombre": "Ferreteria Santa Rosa",
+  "donde": "Santa Rosa",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@ferrstarosa",
+  "nombre": "Ferreteria Santa Rosa S.A.",
+  "donde": "Santa Rosa",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@ferreteria_la_pampita",
+  "nombre": "Ferreteria La Pampita",
+  "donde": "Santa Rosa",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@ferreteriaspampa",
+  "nombre": "Ferreterias Pampa",
+  "donde": "Santa Rosa - La Pampa 2990",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@ferreteriaquintana",
+  "nombre": "Ferreteria Quintana",
+  "donde": "Santa Rosa",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@ferreteria_jyf",
+  "nombre": "Ferreteria JyF",
+  "donde": "Santa Rosa",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@ferreteriasancayetano2020",
+  "nombre": "Distribuidora San Cayetano",
+  "donde": "Santa Rosa - Delfin Gallo 855",
+  "prov": "La Pampa"
+ },
+ {
+  "ig": "@elgringof",
+  "nombre": "El Gringo Ferreteria",
+  "donde": "Santiago del Estero - Av. Aguirre 1153",
+  "prov": "Santiago del Estero"
+ },
+ {
+  "ig": "@ferreteriacomercialcolon",
+  "nombre": "Ferreteria Comercial Colon",
+  "donde": "Santiago del Estero - Av. Colon 1031",
+  "prov": "Santiago del Estero"
+ },
+ {
+  "ig": "@ferreteria_del_centro_tandil",
+  "nombre": "Ferreteria del Centro",
+  "donde": "Tandil",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@h30ferreteriaexpress.tandil",
+  "nombre": "H30 Ferreterias Express Tandil",
+  "donde": "Tandil - Rodriguez 567",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@centroferreterotandil",
+  "nombre": "Centro Ferretero Tandil",
+  "donde": "Tandil",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaonorato",
+  "nombre": "Onorato Tools",
+  "donde": "Tandil - Balbin 1373",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaochoa",
+  "nombre": "Ferreteria Ochoa",
+  "donde": "Tandil / zona centro BA",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_republica",
+  "nombre": "Ferreteria Republica",
+  "donde": "Junin - Av. Republica y J.B. Justo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.junin",
+  "nombre": "Ferreteria Junin",
+  "donde": "Junin",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@juninferretera",
+  "nombre": "Junin Ferretera",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriasdelbarriosannicolas",
+  "nombre": "Ferreterias del Barrio",
+  "donde": "San Nicolas",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@herramental_zarate",
+  "nombre": "Ferreteria Herramental Zarate",
+  "donde": "Zarate",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriazarate",
+  "nombre": "Ferreteria Zarate",
+  "donde": "Zarate",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaferronier",
+  "nombre": "Ferreteria Ferronier SRL",
+  "donde": "Zarate - Mitre 1133",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_miguel_campana",
+  "nombre": "Ferreterias Miguel",
+  "donde": "Campana - San Martin y Guemes",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterianortesn",
+  "nombre": "Ferreteria Norte",
+  "donde": "San Nicolas - Av. Falcon y Rivadavia",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@pzdistribuidora.ok",
+  "nombre": "Distribuidora Perez Zarate",
+  "donde": "Zarate",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.el.parque",
+  "nombre": "Ferreteria El Parque",
+  "donde": "Venado Tuerto - Santa Fe 944",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriadonroberto",
+  "nombre": "Ferreteria Don Roberto",
+  "donde": "Venado Tuerto",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@comercialfe",
+  "nombre": "Comercial Fe - Ferreteria Industrial",
+  "donde": "Armstrong / Venado Tuerto",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@laferreteriario4",
+  "nombre": "La Ferreteria",
+  "donde": "Rio Cuarto",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@latuercaferreteria",
+  "nombre": "Ferreteria Industrial La Tuerca",
+  "donde": "Isidro Casanova",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_tedesco",
+  "nombre": "Ferreteria Tedesco",
+  "donde": "Isidro Casanova",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaelectromar",
+  "nombre": "Ferreteria Electromar",
+  "donde": "Isidro Casanova - Francisco Segui 6163",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaferregit",
+  "nombre": "Ferreteria Ferregit",
+  "donde": "Burzaco",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaelsol.montegrande",
+  "nombre": "Ferreteria El Sol",
+  "donde": "Monte Grande",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaelmaestro.com.ar",
+  "nombre": "Ferreteria El Maestro",
+  "donde": "Ezeiza",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaaleo",
+  "nombre": "Ferreteria Aleo",
+  "donde": "Godoy Cruz / Maipu - Mendoza",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@maipuferreteria",
+  "nombre": "Ferreteria Maipu",
+  "donde": "Maipu - Av. Maipu 255",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@ferreteria_comara",
+  "nombre": "Ferreteria Comara",
+  "donde": "Godoy Cruz",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@materiales_oeste",
+  "nombre": "Materiales de Construccion Oeste",
+  "donde": "Merlo - zona oeste",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralon_materialesiglo21",
+  "nombre": "Corralon Materiales Siglo XXI",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralon_premium_",
+  "nombre": "Corralon Premium",
+  "donde": "CABA - Av. Brasil 916",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@corralonmaterialessanmartin",
+  "nombre": "Corralon Materiales San Martin",
+  "donde": "San Martin",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@materialesmoreno",
+  "nombre": "Corralon Materiales Moreno",
+  "donde": "Moreno",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialargentina",
+  "nombre": "Ferreteria La Argentina S.A.",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@pintolindoferreteria",
+  "nombre": "Pintolindo Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@laferreteriaycerrajeria",
+  "nombre": "La Ferreteria y Cerrajeria",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@somosrex",
+  "nombre": "Rex - Todo para tu hogar",
+  "donde": "70+ sucursales en todo el pais",
+  "prov": "Nacional"
+ },
+ {
+  "ig": "@bulonerapatagonica",
+  "nombre": "Bulonera Patagonica",
+  "donde": "General Roca - Alsina 866",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@buloneratorcuato",
+  "nombre": "Bulonera Torcuato",
+  "donde": "Don Torcuato",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@buloneratigre",
+  "nombre": "Bulonera Tigre SA",
+  "donde": "Tigre - Av. Cazon 302",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreargentina",
+  "nombre": "Sanitarios y Ferreteria La Argentina",
+  "donde": "Villa Ballester - Libertad 6102",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.roma",
+  "nombre": "Ferreteria y Sanitarios Roma",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@tiendadestreza",
+  "nombre": "Destreza - Ferreteria, Pintureria, Sanitarios",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.colon",
+  "nombre": "Ferreteria Colon",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialaobra",
+  "nombre": "Ferreteria La Obra",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@suferreteriaonline",
+  "nombre": "Su Ferreteria Online",
+  "donde": "Argentina (online)",
+  "prov": "Nacional"
+ },
+ {
+  "ig": "@ferrelecferreterias",
+  "nombre": "Ferreteria Ferrelec",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@mas.ferreteria",
+  "nombre": "Mas Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferromar.ferreteriaindustrial",
+  "nombre": "Ferromar - Ferreteria Industrial",
+  "donde": "Miramar",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@asisferreteria",
+  "nombre": "Asis Ferreteria Industrial",
+  "donde": "City Bell",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialanuevamarcospaz",
+  "nombre": "Ferreteria La Nueva",
+  "donde": "Marcos Paz - Av. Libertad 1055",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_marcos_paz",
+  "nombre": "Ferreteria Marcos Paz",
+  "donde": "Marcos Paz",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriageneralpaz",
+  "nombre": "Ferreteria General Paz",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterageneralpaz",
+  "nombre": "FGP Ferretera General Paz",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferremorenolujan",
+  "nombre": "Ferre Moreno",
+  "donde": "Lujan de Cuyo - Mariano Moreno 566",
+  "prov": "Mendoza"
+ },
+ {
+  "ig": "@gpelectromecanica",
+  "nombre": "GP Electromecanica - Maquinas y Ferreteria",
+  "donde": "Florencio Varela - Monteagudo 2214",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasilva",
+  "nombre": "Ferreteria Silva",
+  "donde": "Florencio Varela - Ameghino 3673",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacapricho",
+  "nombre": "Ferreteria Capricho",
+  "donde": "Florencio Varela",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasolfer",
+  "nombre": "Ferreteria Industrial Solfer",
+  "donde": "Zona sur GBA",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamanolo",
+  "nombre": "Ferreteria Manolo",
+  "donde": "Villa Lugano - Av. Castanares 4686",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@lugoferreterias",
+  "nombre": "Lugo Ferreterias",
+  "donde": "CABA",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteria_luciano",
+  "nombre": "Ferreteria Luciano",
+  "donde": "CABA",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriasantelmo",
+  "nombre": "Ferreteria San Telmo",
+  "donde": "San Telmo",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferrolatina",
+  "nombre": "Ferrolatina - Ferreteria Industrial",
+  "donde": "Concepcion del Uruguay",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferresuresquel",
+  "nombre": "Ferresur Esquel",
+  "donde": "Esquel",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@la_virolaferreteria",
+  "nombre": "La Virola Ferreteria",
+  "donde": "Ushuaia",
+  "prov": "Tierra del Fuego"
+ },
+ {
+  "ig": "@ferreteria.integralush",
+  "nombre": "Ferreteria Integral",
+  "donde": "Ushuaia - J.D. Peron Sur 558",
+  "prov": "Tierra del Fuego"
+ },
+ {
+  "ig": "@elmartilloush",
+  "nombre": "Ferreteria El Martillo",
+  "donde": "Ushuaia",
+  "prov": "Tierra del Fuego"
+ },
+ {
+  "ig": "@argenfercaletaolivia",
+  "nombre": "Argenfer",
+  "donde": "Caleta Olivia",
+  "prov": "Santa Cruz"
+ },
+ {
+  "ig": "@lasiglo21costaatlantica",
+  "nombre": "La Siglo 21",
+  "donde": "Costa Atlantica",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@antartidaferreteria",
+  "nombre": "Ferreteria Antartida",
+  "donde": "Villa Gesell - Av. 3 y paseo 127",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasietelagos",
+  "nombre": "Ferreteria Siete Lagos",
+  "donde": "Villa Gesell",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialoshermanos_",
+  "nombre": "Ferreteria Los Hermanos",
+  "donde": "Mar del Plata - Fortunato de la Plaza 4810",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_los3hermanos",
+  "nombre": "Ferreteria Los Tres Hermanos",
+  "donde": "Pablo Podesta - B. Perez Galdos 9721",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriahnospappaterra",
+  "nombre": "Ferreteria Hermanos Pappaterra",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrear.rw",
+  "nombre": "Ferreteria Argentina Rawson",
+  "donde": "Rawson / Playa Union",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@donnatoferreteria",
+  "nombre": "Ferreteria Don Nato",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.don.manolo",
+  "nombre": "Ferreteria Don Manolo",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.gauna",
+  "nombre": "Ferreteria Gauna",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@casa_fierro",
+  "nombre": "Casa Fierro Ferreteria Artistica",
+  "donde": "Barrio Don Orione - Rio Blanco 544",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaamericaoficial",
+  "nombre": "Ferreteria America (desde 1959)",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreargentinacentro",
+  "nombre": "Ferreteria Argentina Centro",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriala.nueva",
+  "nombre": "Ferreteria La Nueva",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.central",
+  "nombre": "Ferreteria Central",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.el.hogar",
+  "nombre": "Ferreteria El Hogar",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria__hogar",
+  "nombre": "Ferreteria Hogar",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacentralsrl",
+  "nombre": "Ferreteria Central SRL",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaelhogar_",
+  "nombre": "Grupo El Hogar",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.bracco",
+  "nombre": "Ferreteria Bracco",
+  "donde": "Tres Arroyos",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_chascomus",
+  "nombre": "Ferreteria Chascomus",
+  "donde": "Chascomus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabalcarce",
+  "nombre": "Ferreteria Balcarce",
+  "donde": "Balcarce",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaelvasquito",
+  "nombre": "Ferreteria El Vasquito",
+  "donde": "Chascomus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@tubulon_chascomus",
+  "nombre": "Tu Bulon - Ferreteria y Buloneria",
+  "donde": "Chascomus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@distrimaqtsas",
+  "nombre": "Distrimaq",
+  "donde": "Tres Arroyos",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@lacasadeltornillo29",
+  "nombre": "La Casa del Tornillo",
+  "donde": "Chascomus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferramac.ferreteria",
+  "nombre": "Ferramac Ferreteria Industrial",
+  "donde": "9 de Julio - Garmendia 1295",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.9dejulio",
+  "nombre": "Ferreteria 9 de Julio",
+  "donde": "9 de Julio",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralonelsol",
+  "nombre": "Ferreteria El Sol",
+  "donde": "Trenque Lauquen",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.lamon",
+  "nombre": "Lamon Repuestos & Herramientas",
+  "donde": "Trenque Lauquen",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@hefesto.corralonferreteria",
+  "nombre": "Hefesto Corralon Ferreteria",
+  "donde": "Chajari",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@colonferreteria",
+  "nombre": "Ferreteria Colon",
+  "donde": "Colon",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteria.corrientes",
+  "nombre": "Ferreteria Corrientes",
+  "donde": "Corrientes",
+  "prov": "Corrientes"
+ },
+ {
+  "ig": "@mc.ferreteria.goya",
+  "nombre": "MC Ferreteria Goya",
+  "donde": "Goya - Paso de los Libres 350",
+  "prov": "Corrientes"
+ },
+ {
+  "ig": "@eldoaguilarferreteria",
+  "nombre": "Eldo Aguilar Ferreteria",
+  "donde": "Resistencia",
+  "prov": "Chaco"
+ },
+ {
+  "ig": "@ferreteriammrgroup",
+  "nombre": "Ferreteria MMR",
+  "donde": "Resistencia - Av. Alvear 2496 / Castelli 2358",
+  "prov": "Chaco"
+ },
+ {
+  "ig": "@ferreteriasalta.nqn",
+  "nombre": "Ferreteria Salta",
+  "donde": "Neuquen",
+  "prov": "Neuquen"
+ },
+ {
+  "ig": "@lapelle602",
+  "nombre": "La Pelle Ferreteria",
+  "donde": "Salta - Pellegrini 602",
+  "prov": "Salta"
+ },
+ {
+  "ig": "@ferroluzsalta",
+  "nombre": "Ferroluz - Electricidad e Iluminacion",
+  "donde": "Salta - Independencia 572 / Peatonal Alberdi 200",
+  "prov": "Salta"
+ },
+ {
+  "ig": "@ferreteriabesares",
+  "nombre": "Ferreteria Besares",
+  "donde": "La Banda",
+  "prov": "Santiago del Estero"
+ },
+ {
+  "ig": "@ferreteriapena_",
+  "nombre": "Ferreteria Pena",
+  "donde": "Clorinda",
+  "prov": "Formosa"
+ },
+ {
+  "ig": "@ferreteriaelsol10",
+  "nombre": "Ferreteria El Sol",
+  "donde": "Clorinda",
+  "prov": "Formosa"
+ },
+ {
+  "ig": "@ferreteria_elgordo",
+  "nombre": "Ferreteria El Gordo",
+  "donde": "Obera - Wilde 953",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreteriaorue",
+  "nombre": "Orue Ferreteria y Corralon",
+  "donde": "Eldorado",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreteriaunizony",
+  "nombre": "Ferreteria Industrial Unizony",
+  "donde": "Obera - Corrientes 420",
+  "prov": "Misiones"
+ },
+ {
+  "ig": "@ferreteria_roca",
+  "nombre": "Ferreteria Roca",
+  "donde": "General Roca",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@losenroscados.plottier",
+  "nombre": "Los Enroscados Ferreteria",
+  "donde": "Plottier - Roca 1830",
+  "prov": "Neuquen"
+ },
+ {
+  "ig": "@ferreterianqn",
+  "nombre": "Ferreteria NQN",
+  "donde": "Neuquen Capital",
+  "prov": "Neuquen"
+ },
+ {
+  "ig": "@ferreteria.santa.cruz",
+  "nombre": "Ferreteria Santa Cruz",
+  "donde": "Santa Cruz",
+  "prov": "Santa Cruz"
+ },
+ {
+  "ig": "@ferreteriasantacruz",
+  "nombre": "Ferreteria Santa Cruz",
+  "donde": "Santa Cruz",
+  "prov": "Santa Cruz"
+ },
+ {
+  "ig": "@antiguaferreteriamoderna",
+  "nombre": "Antigua Ferreteria Moderna",
+  "donde": "Rio Gallegos - Espana 270",
+  "prov": "Santa Cruz"
+ },
+ {
+  "ig": "@ferreterialacruz",
+  "nombre": "Ferreteria La Cruz",
+  "donde": "Santa Cruz",
+  "prov": "Santa Cruz"
+ },
+ {
+  "ig": "@buloneracentro2",
+  "nombre": "Bulonera Centro",
+  "donde": "Villa Mercedes - Av. 25 de Mayo 824",
+  "prov": "San Luis"
+ },
+ {
+  "ig": "@acero.sa",
+  "nombre": "ASA Ferreteria",
+  "donde": "Villa Mercedes - Av. 25 de Mayo 1208",
+  "prov": "San Luis"
+ },
+ {
+  "ig": "@san_jorge1498",
+  "nombre": "Ferreteria San Jorge",
+  "donde": "Villa Mercedes - Av. Mitre 1498",
+  "prov": "San Luis"
+ },
+ {
+  "ig": "@laferreteria._",
+  "nombre": "La Ferreteria Villa Mercedes",
+  "donde": "Villa Mercedes - Av. Peron 1150",
+  "prov": "San Luis"
+ },
+ {
+  "ig": "@ferreteriacymen",
+  "nombre": "Ferreteria CYMEN",
+  "donde": "Villa Mercedes - Av. Pte. Peron 468",
+  "prov": "San Luis"
+ },
+ {
+  "ig": "@insumet_rafaela",
+  "nombre": "Insumet",
+  "donde": "Rafaela",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@friar.santafe",
+  "nombre": "Friar",
+  "donde": "Santa Fe / Santo Tome",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteria_santafe",
+  "nombre": "Ferreteria Santa Fe",
+  "donde": "Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriagalvez",
+  "nombre": "Ferreteria Galvez",
+  "donde": "Roldan",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteria_bricogalvez",
+  "nombre": "Ferreteria Brico Galvez",
+  "donde": "Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteria_lavilla",
+  "nombre": "Ferreteria La Villa",
+  "donde": "Villa Gobernador Galvez",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaostinelli",
+  "nombre": "Ferreteria Ostinelli",
+  "donde": "Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@todobulonferreteria",
+  "nombre": "Todo Bulon Ferreteria",
+  "donde": "Bell Ville - Bv. Ascasubi 368",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriadonlalo",
+  "nombre": "Ferreteria Don Lalo",
+  "donde": "Bell Ville",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@marquez.ferreteria_pintureria",
+  "nombre": "Marquez Ferreteria y Pintureria",
+  "donde": "Arroyito",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriavenida",
+  "nombre": "Ferreteria Casa Avenida",
+  "donde": "Grand Bourg - Av. Eva Peron 1083",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@hcferreteria",
+  "nombre": "HC Ferreteria y Pintureria",
+  "donde": "Don Torcuato",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriafafa",
+  "nombre": "Ferreteria Fafa",
+  "donde": "Don Torcuato - Triunvirato 1539",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@losjuanferreteria",
+  "nombre": "Los Juan Ferreteria",
+  "donde": "Necochea",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@hipermay.tortuguitas",
+  "nombre": "Hipermay Tortuguitas",
+  "donde": "Tortuguitas",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasantoslugares",
+  "nombre": "Ferreteria Santos Lugares",
+  "donde": "Santos Lugares",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_gran_malon",
+  "nombre": "Ferreteria Gran Malon SRL",
+  "donde": "Colegiales - Maure 3692",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriaserrano",
+  "nombre": "Ferreteria Serrano",
+  "donde": "Villa Crespo",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferre.saavedra",
+  "nombre": "Ferreteria Saavedra",
+  "donde": "Saavedra",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteria_pueyrredon",
+  "nombre": "Ferreteria Pueyrredon",
+  "donde": "Villa Pueyrredon",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@rysherramientas",
+  "nombre": "Ferreteria Rio Tercero (RyS Herramientas)",
+  "donde": "Rio Tercero",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@matfer_herramientas",
+  "nombre": "Mat.Fer Herramientas",
+  "donde": "Rio Tercero - Tegucigalpa 578",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriabolivar",
+  "nombre": "Ferreteria Bolivar",
+  "donde": "Rio Tercero - Alsina 262",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria_mejia",
+  "nombre": "Ferreteria Mejia",
+  "donde": "Ramos Mejia",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@_ferreteriaramos_",
+  "nombre": "Ferreteria Ramos",
+  "donde": "Ramos Mejia",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@casagisela_",
+  "nombre": "Ferreteria Casa Gisela",
+  "donde": "Rafael Castillo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaflorida",
+  "nombre": "Ferreteria Florida",
+  "donde": "Florida - Vicente Lopez",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@murano_ferroshop",
+  "nombre": "Murano Ferroshop (desde 1956)",
+  "donde": "Villa Adelina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@elmiradorferreteria",
+  "nombre": "Ferreteria El Mirador",
+  "donde": "Lomas del Mirador",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.hernan",
+  "nombre": "Ferreteria Hernan",
+  "donde": "Gerli - Cnel. Lacarra 1687",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@colorferr",
+  "nombre": "Colorferr",
+  "donde": "Lomas del Mirador",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferretriangulo_",
+  "nombre": "Ferreteria El Triangulo",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferremarok",
+  "nombre": "Ferremar",
+  "donde": "Villa Allende - Av. Goycoechea 1977",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriabuenpastor",
+  "nombre": "Ferreteria Buen Pastor",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreterialberdi",
+  "nombre": "Ferreteria Alberdi",
+  "donde": "Casilda - 1 de Mayo y Brigadier Lopez",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaalberdi_",
+  "nombre": "Ferreteria Alberdi",
+  "donde": "Casilda - 1ro de Mayo 2785",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteria_alberdi_1187",
+  "nombre": "Ferreteria Corralon Alberdi",
+  "donde": "Argentina",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteria_alberdisn",
+  "nombre": "Ferreteria Alberdi SN",
+  "donde": "Argentina",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriasanpedro",
+  "nombre": "Ferreteria San Pedro",
+  "donde": "San Pedro de Jujuy",
+  "prov": "Jujuy"
+ },
+ {
+  "ig": "@pallferreteria",
+  "nombre": "Pall Ferreteria",
+  "donde": "Jujuy",
+  "prov": "Jujuy"
+ },
+ {
+  "ig": "@labulonera_ferreteria",
+  "nombre": "La Bulonera Ferreteria",
+  "donde": "Jujuy",
+  "prov": "Jujuy"
+ },
+ {
+  "ig": "@buloneriacordoba",
+  "nombre": "Buloneria Cordoba",
+  "donde": "Yerba Buena - Av. Solano Vera 1005",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@ferreteria.olivieri",
+  "nombre": "Ferreteria Olivieri",
+  "donde": "Yerba Buena",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@mundoferretero1",
+  "nombre": "Mundo Ferretero",
+  "donde": "Yerba Buena - Av. Aconquija 1073",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@ferreteria_rivadavia",
+  "nombre": "Ferreteria Rivadavia",
+  "donde": "Rivadavia",
+  "prov": "San Juan"
+ },
+ {
+  "ig": "@ferreterasanjuan",
+  "nombre": "Ferretera San Juan",
+  "donde": "San Juan",
+  "prov": "San Juan"
+ },
+ {
+  "ig": "@ferreteriasanjuan1",
+  "nombre": "Casa San Juan",
+  "donde": "San Juan",
+  "prov": "San Juan"
+ },
+ {
+  "ig": "@ferreteriasanrafael.cab",
+  "nombre": "Ferreteria San Rafael",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@la_toribia",
+  "nombre": "Ferreteria La Toribia",
+  "donde": "Saladillo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaa_zul",
+  "nombre": "Ferreteria Azul",
+  "donde": "Azul",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreolavarria",
+  "nombre": "Ferreteria Olavarria",
+  "donde": "Mar del Plata - Av. Alio 1680",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.olavarria",
+  "nombre": "Ferreteria Olavarria",
+  "donde": "Olavarria",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabolivarplaza",
+  "nombre": "Ferreteria Bolivar Plaza",
+  "donde": "Bolivar",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@roxaf_ferreteria",
+  "nombre": "Roxaf Ferreteria",
+  "donde": "Olavarria",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacoronell",
+  "nombre": "Ferreteria Coronel",
+  "donde": "Coronel Suarez",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.suarez",
+  "nombre": "Ferreteria Suarez",
+  "donde": "Coronel Suarez",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.la.vasca",
+  "nombre": "Ferreteria La Vasca",
+  "donde": "Coronel Suarez",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriadiale",
+  "nombre": "Ferreteria Diale",
+  "donde": "Coronel Suarez",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.servimaq",
+  "nombre": "Ferreteria Servi Maq",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaypintureriacarrasco",
+  "nombre": "Ferreteria y Pintureria Carrasco",
+  "donde": "Baradero - Carrasco 125",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriadelbarriobaradero",
+  "nombre": "Ferreteria del Barrio",
+  "donde": "Baradero",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.rsp",
+  "nombre": "Recicladora San Pedro",
+  "donde": "San Pedro",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@materiales.oeste.lujan",
+  "nombre": "Materiales Oeste Lujan",
+  "donde": "Lujan",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@nuevaferreteriaintegral",
+  "nombre": "Nueva Ferreteria Integral",
+  "donde": "Lujan - Carlos Pellegrini 1200",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@sanvicenteferreteria",
+  "nombre": "Ferreteria Oviedo San Vicente",
+  "donde": "San Vicente",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrollavessv",
+  "nombre": "Ferrollaves Ferreteria",
+  "donde": "San Vicente",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasanvicente",
+  "nombre": "Ferreteria San Vicente",
+  "donde": "San Vicente",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterasanvicente",
+  "nombre": "Ferreteria Industrial San Vicente",
+  "donde": "San Vicente",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriavicente",
+  "nombre": "Ferreteria Vicente",
+  "donde": "San Vicente",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@lopezferreteriaindustrial",
+  "nombre": "Lopez Ferreteria y Buloneria",
+  "donde": "Canuelas",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacanuelas",
+  "nombre": "Ferreteria Canuelas",
+  "donde": "Canuelas",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@fercoagro",
+  "nombre": "Fercoagro - Agro Ferreteria",
+  "donde": "Canuelas",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabrandsen",
+  "nombre": "Ferreteria Brandsen",
+  "donde": "San Justo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@deloesteherrajes",
+  "nombre": "Del Oeste Herrajes",
+  "donde": "Moron - Azcuenaga 717",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@cerrajeria_ituzaingo",
+  "nombre": "Cerrajeria Ituzaingo Automotor",
+  "donde": "Ituzaingo 1871",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@rattiherrajes",
+  "nombre": "Herrajes Ratti",
+  "donde": "Ituzaingo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrematnogoya",
+  "nombre": "Ferremat Nogoya",
+  "donde": "Nogoya - Av. Italia y Sixto Oris",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@entreriosferreteria",
+  "nombre": "Ferreteria Entre Rios",
+  "donde": "Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteria.entrerios",
+  "nombre": "Ferreteria Entre Rios",
+  "donde": "Entre Rios",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteriacolmangualeguay",
+  "nombre": "Ferreteria Colman SRL (ex Ferretodo)",
+  "donde": "Gualeguay",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@fd_ferreteria",
+  "nombre": "FD Ferreteria",
+  "donde": "Rio Grande",
+  "prov": "Tierra del Fuego"
+ },
+ {
+  "ig": "@jbergamasco.srl",
+  "nombre": "J. Bergamasco SRL",
+  "donde": "La Falda / Cosquin / Cruz del Eje / Capilla del Monte",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriaribar",
+  "nombre": "Ferreteria Ribar",
+  "donde": "Villa Carlos Paz",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@lapazferreteria",
+  "nombre": "Ferreteria La Paz",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@rafadapergamino",
+  "nombre": "Rafada Ferreteria Industrial",
+  "donde": "Pergamino",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.norte",
+  "nombre": "Ferreteria Norte",
+  "donde": "Pergamino",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_villa_bosch",
+  "nombre": "Ferreteria Villa Bosch",
+  "donde": "Villa Bosch - Tres de Febrero",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@cerrajeriaalberdi",
+  "nombre": "Cerrajeria Alberdi",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriadontito.rosario",
+  "nombre": "Ferreteria Don Tito",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreterianain",
+  "nombre": "Ferreteria Nain - Herramientas industriales",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@pellegrini_pintureria",
+  "nombre": "Pellegrini Ferreteria y Pintureria",
+  "donde": "Zona sur GBA",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@mhp_ar",
+  "nombre": "MHP SA Ferreteria",
+  "donde": "Comodoro Rivadavia",
+  "prov": "Chubut"
+ },
+ {
+  "ig": "@ferreterias_america",
+  "nombre": "Ferreterias America",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriarivadavia_",
+  "nombre": "Ferreteria y Pintureria Rivadavia",
+  "donde": "Los Polvorines",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriagamasrl",
+  "nombre": "Ferreteria Gama SRL",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@somaxferreteria",
+  "nombre": "Somax Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@latiendaferretera",
+  "nombre": "La Tienda Ferretera",
+  "donde": "Argentina (online)",
+  "prov": "Nacional"
+ },
+ {
+  "ig": "@ferreteria.lacasa",
+  "nombre": "Ferreteria La Casa",
+  "donde": "Temperley",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferremax_temperley",
+  "nombre": "Ferremax",
+  "donde": "Temperley",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriachacabuco",
+  "nombre": "Ferreteria Chacabuco",
+  "donde": "Parque Chacabuco - Chacabuco 2561",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriaconcepcion",
+  "nombre": "Ferreteria Concepcion",
+  "donde": "Concepcion del Uruguay",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreteria.sanchez",
+  "nombre": "Ferreteria Sanchez",
+  "donde": "Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@todoherramientas10",
+  "nombre": "Todo Herramientas - Ferreteria Rio Cuarto",
+  "donde": "Rio Cuarto",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferre.larotonda",
+  "nombre": "Ferreteria La Rotonda",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamarani",
+  "nombre": "Ferreteria Marani SA",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriavalencia",
+  "nombre": "Ferreteria Valencia",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@fercorfijaciones",
+  "nombre": "Fercor Fijaciones SRL",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.startools",
+  "nombre": "Ferreteria Star Tools",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreramos.ramos",
+  "nombre": "Ferreteria Ramos",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrindep",
+  "nombre": "Ferreteria Independencia",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@districon.ferreteriaindustrial",
+  "nombre": "Districon Ferreteria Industrial",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@lusqtoffrosario",
+  "nombre": "Lusqtoff Oficial Rosario",
+  "donde": "Rosario",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaelonce",
+  "nombre": "Ferreteria El Once",
+  "donde": "Balvanera - Sarmiento 2846",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteriaferrer",
+  "nombre": "Ferreteria Ferrer",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@materialesriocuarto",
+  "nombre": "Materiales Rio Cuarto - Corralon y Ferreteria",
+  "donde": "Rio Cuarto",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@corralonmaterialesparana",
+  "nombre": "Corralon Materiales Parana",
+  "donde": "Parana - Av. Zanni 1894",
+  "prov": "Entre Rios"
+ },
+ {
+  "ig": "@ferreterialeconte",
+  "nombre": "Ferreteria Corralon Leconte",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@laobra_disensa",
+  "nombre": "La Obra Ferreteria-Corralon",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralonferreteria.uaa",
+  "nombre": "Corralon Ferreteria UAA",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@disensa.corralon.ferreteria",
+  "nombre": "Ferra Disensa Corralon Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabulplus",
+  "nombre": "Bulplus Ferreteria Industrial",
+  "donde": "Alto Alberdi - Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@reginatooficial",
+  "nombre": "Buloneria y Ferreteria Reginato",
+  "donde": "Tucuman",
+  "prov": "Tucuman"
+ },
+ {
+  "ig": "@ferreteria.republica",
+  "nombre": "Ferreteria Republica",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.lamadrid",
+  "nombre": "Ferreteria Lamadrid",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacsavar",
+  "nombre": "Ferreteria Csavar",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@casadtodo",
+  "nombre": "Casa D'Todo",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferroguazu",
+  "nombre": "FerroGuazu",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ansercerrajeria",
+  "nombre": "Anser Cerrajeria Especializada",
+  "donde": "CABA - Uriburu 89",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreteria.corralon.sanantonio",
+  "nombre": "Corralon San Antonio",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferre_vasquez",
+  "nombre": "Ferreteria Vasquez",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@emyferreteria",
+  "nombre": "Emy Ferreteria",
+  "donde": "Lujan",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.suntools",
+  "nombre": "Suntool's Ferreteria",
+  "donde": "CABA - Av. Cabildo 3246",
+  "prov": "CABA"
+ },
+ {
+  "ig": "@ferreterialalupe",
+  "nombre": "Ferreteria La Lupe",
+  "donde": "Nueva Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria_la_hogarena",
+  "nombre": "Ferreteria La Hogarena - Unifer",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@laferre.sr",
+  "nombre": "Ferreteria La Ferre",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriajardin",
+  "nombre": "Ferreteria Jardin",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@eljardinferreteria",
+  "nombre": "El Jardin Ferreteria & Bazar",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.jardin",
+  "nombre": "Ferreteria Jardin",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ploeleca",
+  "nombre": "Materiales Ploeleca - Plomeria, ferreteria y electricidad",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferregriferia",
+  "nombre": "Ferreteria Griferia",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@herramientasmayoristaba",
+  "nombre": "Herramientas Mayorista",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaplazoleta",
+  "nombre": "Ferreteria Plazoleta (desde 1980)",
+  "donde": "San Miguel",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferri.mac",
+  "nombre": "Ferreteria Industrial Multimarca Ferrimac",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@bulmakferreteria",
+  "nombre": "Ferreteria Bulmak",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@elferreterook",
+  "nombre": "El Ferretero (desde 1983)",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaeltornillo94",
+  "nombre": "Ferreteria El Tornillo Que Te Falta",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@uniferag",
+  "nombre": "Ferreteria Grupo Uniferag",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferretesa_",
+  "nombre": "Ferreteria Ferretesa",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@elsoldadorferreteria",
+  "nombre": "El Soldador Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@rbm_ferreteria",
+  "nombre": "RBM Centro Ferretero",
+  "donde": "Baradero",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrolanarg",
+  "nombre": "Ferrolanarg - Herramientas de soldadura",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@onufer_ferreteria",
+  "nombre": "Onufer Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreterialastorres",
+  "nombre": "Ferreteria Las Torres",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@h30ferreterias",
+  "nombre": "H30 Ferreterias Express (cadena)",
+  "donde": "Sucursales en todo el pais",
+  "prov": "Nacional"
+ },
+ {
+  "ig": "@autoservicioferreterovgb",
+  "nombre": "Autoservicio Ferretero VGB",
+  "donde": "Villa Gobernador Galvez",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferretotaloficial",
+  "nombre": "Ferretotal - Ferreteria Autoservicio",
+  "donde": "Sucursales en todo el pais",
+  "prov": "Nacional"
+ },
+ {
+  "ig": "@lbferreterias",
+  "nombre": "LB Ferreterias",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@fexpressok",
+  "nombre": "Ferreteria Express",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.express",
+  "nombre": "Ferreteria Express",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaexpress.com.ar",
+  "nombre": "Ferreteria Express",
+  "donde": "Argentina (online)",
+  "prov": "Nacional"
+ },
+ {
+  "ig": "@ferreteriasuprema",
+  "nombre": "Ferreteria Suprema",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.hamburgo",
+  "nombre": "Ferreteria Hamburgo",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_electroventas",
+  "nombre": "Ferreteria Electroventas",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferremixargentina",
+  "nombre": "Ferremix Argentina - Ferreteria Industrial",
+  "donde": "Moreno",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriaindustrialsrl",
+  "nombre": "Ferreteria Industrial SRL",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferrogar.ferreteria",
+  "nombre": "Ferrogar",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@agutierrez.herramientas",
+  "nombre": "Andres Gutierrez Herramientas Industriales",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@labrujulaferreteria",
+  "nombre": "La Brujula Ferreteria",
+  "donde": "Lisandro Olmos / Haras del Sur III - La Plata",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@caeirocanuelas",
+  "nombre": "Caeiro - Industria/Hogar/Obra",
+  "donde": "Canuelas",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriairazuoficial",
+  "nombre": "Ferreteria y Deposito Irazu",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@matanzaferreteria2",
+  "nombre": "Matanza Ferreteria",
+  "donde": "La Matanza",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@_ferreterialaunionsanjusto",
+  "nombre": "Ferreteria La Union",
+  "donde": "San Justo",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@bulonerabulmaq",
+  "nombre": "BulMaq Bulonera & Ferreteria Industrial",
+  "donde": "San Justo - Dr. Arturo Illia 3135",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@pintureriaszona",
+  "nombre": "Pinturerias Zona Norte",
+  "donde": "Zona norte GBA",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@pintureriasmiguel",
+  "nombre": "Pinturerias Miguel",
+  "donde": "CABA y zona sur",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_sanmiguel",
+  "nombre": "Ferreteria San Miguel",
+  "donde": "San Miguel (confirmar)",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferre_san_miguel",
+  "nombre": "Ferreteria San Miguel",
+  "donde": "San Miguel (confirmar)",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferresanmiguel1",
+  "nombre": "Ferreteria San Miguel",
+  "donde": "San Miguel (confirmar)",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriacordova_",
+  "nombre": "Ferreteria Cordova",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteriacordobes",
+  "nombre": "Ferreteria El Cordobes",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@laferreteria.721",
+  "nombre": "La Ferreteria",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriabuenosairesok",
+  "nombre": "Ferreteria Buenos Aires",
+  "donde": "Roldan - Buenos Aires 242",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@grupo.ferretero",
+  "nombre": "Grupo Ferretero",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.otamendi",
+  "nombre": "Ferreteria Otamendi",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriasdelbarrio",
+  "nombre": "Ferreterias del Barrio",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.buloneria",
+  "nombre": "Bulones Donelli",
+  "donde": "Adrogue",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@bulonsursrl",
+  "nombre": "Bulon Sur SRL - Ferreteria Industrial",
+  "donde": "Lanus",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriadelacosta",
+  "nombre": "Ferreteria de la Costa",
+  "donde": "Costa Atlantica",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria_sanitarios_eduardo",
+  "nombre": "Ferreteria y Sanitarios Eduardo",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriamilani",
+  "nombre": "Ferreteria Industrial Milani",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriadelriego",
+  "nombre": "Ferreteria Del Riego Hibarne",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriajuncal",
+  "nombre": "Ferreteria Juncal (desde 1969)",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@grferreteriaindustrial",
+  "nombre": "GR Ferreteria Industrial (+45 anios)",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@losamigos_ferreteria",
+  "nombre": "Ferreteria Los Amigos",
+  "donde": "Nueva Cordoba - Obispo Salguero 525",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@lafabrica.ferreteriaindustrial",
+  "nombre": "La Fabrica - Ferreteria e Insumos",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.oreste",
+  "nombre": "Ferreteria Oreste",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria_carrasco",
+  "nombre": "Ferreteria Carrasco",
+  "donde": "Allen - Av. Roca 581",
+  "prov": "Rio Negro"
+ },
+ {
+  "ig": "@ferreteriamanolochivilcoy",
+  "nombre": "Ferreteria Manolo",
+  "donde": "Chivilcoy - Av. Echeverria 421",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteria.marcelo",
+  "nombre": "Ferreteria Marcelo (+20 anios)",
+  "donde": "Chivilcoy",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriagomezf",
+  "nombre": "Ferreteria Gomez",
+  "donde": "Canada de Gomez",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@gomez.ferreteria",
+  "nombre": "Ferreteria Gomez",
+  "donde": "Santa Fe",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@ferreteriaoliva",
+  "nombre": "Ferreteria Oliva",
+  "donde": "Santo Tome",
+  "prov": "Santa Fe"
+ },
+ {
+  "ig": "@mitreferreteria",
+  "nombre": "Mitre Ferreteria",
+  "donde": "Las Varillas - Belgrano 115",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@corralon_la_villa",
+  "nombre": "Corralon La Villa",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@ferreteria_gerwill",
+  "nombre": "Gerwill Ferreteria Industrial",
+  "donde": "Cordoba",
+  "prov": "Cordoba"
+ },
+ {
+  "ig": "@abc.ferreteria",
+  "nombre": "Ferreteria ABC",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@lasolucion.ferreteria",
+  "nombre": "La Solucion Ferreteria",
+  "donde": "Urquiza 2341 / Rioja 2020",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralonferreteria_maco",
+  "nombre": "Corralon y Ferreteria MACO",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralondebenedetti",
+  "nombre": "Ferreteria Corralon De Benedetti",
+  "donde": "Buenos Aires",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@corralonpatagonicodigital",
+  "nombre": "Corralon Patagonico De Los Andes",
+  "donde": "Patagonia",
+  "prov": "Neuquen"
+ },
+ {
+  "ig": "@ferreteriacorralonimi",
+  "nombre": "Ferreteria Corralon IMI",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ },
+ {
+  "ig": "@ferreteriafurlanetto",
+  "nombre": "Ferreteria Corralon Furlanetto",
+  "donde": "Argentina",
+  "prov": "Buenos Aires"
+ }
+]
