@@ -1,0 +1,4 @@
+node_modules/
+
+# Acá quedan la IP de tu TV y los tokens de emparejamiento: no van al repo.
+data/

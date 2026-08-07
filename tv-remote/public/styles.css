@@ -1,0 +1,359 @@
+/* ==========================================================================
+   Control Remoto TV — pensado para el pulgar, no para el mouse.
+   Todo lo táctil mide 56px o más; nada depende de hover.
+   ========================================================================== */
+
+:root {
+  --bg: #0b0d12;
+  --bg-soft: #12151d;
+  --surface: #171b26;
+  --surface-2: #1e2331;
+  --line: #262c3b;
+  --text: #eef1f7;
+  --muted: #8b93a7;
+  --accent: #4f7cff;
+  --accent-soft: rgba(79, 124, 255, .16);
+  --danger: #ff4d4f;
+  --ok: #2fd27a;
+  --radius: 18px;
+  --gap: 12px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; }
+
+/* Los display: flex de más abajo le ganarían al atributo hidden. */
+[hidden] { display: none !important; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* Nada de zoom accidental ni selección al martillar botones */
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.ico { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.ico-sm { width: 16px; height: 16px; }
+
+/* --------------------------------------------------------------- topbar -- */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: calc(var(--safe-top) + 14px) 16px 14px;
+  background: linear-gradient(180deg, var(--bg-soft), transparent);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(8px);
+}
+
+.tv-info { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.tv-name { font-size: 15px; font-weight: 650; letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tv-sub { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--muted); flex: none;
+  box-shadow: 0 0 0 4px rgba(139, 147, 167, .12);
+}
+.dot[data-state="on"] { background: var(--ok); box-shadow: 0 0 0 4px rgba(47, 210, 122, .16); }
+.dot[data-state="error"] { background: var(--danger); box-shadow: 0 0 0 4px rgba(255, 77, 79, .16); }
+.dot[data-state="busy"] { background: #f4b740; box-shadow: 0 0 0 4px rgba(244, 183, 64, .16); animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: .35; } }
+
+.icon-btn {
+  width: 44px; height: 44px; flex: none;
+  display: grid; place-items: center;
+  border-radius: 14px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--text);
+}
+
+/* --------------------------------------------------------------- layout -- */
+
+main { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+
+.panel { display: none; padding: 16px 16px 24px; gap: var(--gap); flex-direction: column; }
+.panel.is-active { display: flex; }
+
+.row { display: grid; gap: var(--gap); }
+.row-2 { grid-template-columns: repeat(2, 1fr); }
+.row-3 { grid-template-columns: repeat(3, 1fr); }
+.row-4 { grid-template-columns: repeat(4, 1fr); }
+
+.hint { margin: 2px 0 0; font-size: 12px; color: var(--muted); text-align: center; }
+.muted { color: var(--muted); font-size: 13px; margin: 0; }
+
+/* --------------------------------------------------------------- teclas -- */
+
+.key {
+  height: 60px;
+  display: grid; place-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  color: var(--text);
+  font-size: 14px; font-weight: 600;
+  transition: transform .06s ease, background .12s ease;
+}
+.key:active, .num:active, .rocker-btn:active, .dpad-btn:active, .dpad-ok:active, .app:active, .btn:active {
+  transform: scale(.94);
+  background: var(--accent-soft);
+}
+.key-power { color: #ff6b6d; border-color: rgba(255, 107, 109, .32); }
+.key-play { background: var(--accent); border-color: transparent; }
+.key-wide { font-size: 13px; }
+
+/* --------------------------------------------------------------- d-pad --- */
+
+/* El tamaño se limita también por altura: en pantallas cortas el círculo cede
+   espacio para que el volumen no quede debajo del pliegue. */
+.dpad {
+  position: relative;
+  width: min(250px, 62vw, 32vh);
+  aspect-ratio: 1;
+  margin: 4px auto 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 40%, var(--surface-2), var(--surface));
+  border: 1px solid var(--line);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .04), 0 12px 30px rgba(0, 0, 0, .45);
+  touch-action: none;
+}
+
+.dpad-btn {
+  position: absolute;
+  width: 30%; height: 30%;
+  display: grid; place-items: center;
+  border: 0; background: transparent; color: var(--muted);
+  border-radius: 50%;
+}
+.dpad-btn .ico { width: 30px; height: 30px; stroke-width: 2.4; }
+.dpad-up { top: 2%; left: 35%; }
+.dpad-down { bottom: 2%; left: 35%; }
+.dpad-left { left: 2%; top: 35%; }
+.dpad-right { right: 2%; top: 35%; }
+
+.dpad-ok {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%; height: 40%;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #2a3145, #202537);
+  color: var(--text);
+  font-size: 17px; font-weight: 700; letter-spacing: .04em;
+}
+.dpad-ok:active { transform: translate(-50%, -50%) scale(.94); }
+
+/* La pista visual del swipe */
+.dpad.is-swiping { background: radial-gradient(circle at 50% 40%, #232a3c, var(--surface)); }
+
+/* ------------------------------------------------------------ balancines - */
+
+.rockers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+}
+
+.rocker {
+  display: flex; flex-direction: column; align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  padding: 6px;
+  gap: 2px;
+}
+.rocker-btn {
+  width: 100%;
+  min-height: 52px;
+  display: grid; place-items: center;
+  border: 0; background: transparent; color: var(--text);
+  border-radius: 20px;
+}
+.rocker-label { font-size: 11px; font-weight: 700; color: var(--muted); letter-spacing: .12em; }
+
+/* ----------------------------------------------------------------- apps -- */
+
+.apps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 4px; }
+.app {
+  height: 48px;
+  padding: 0 2px;
+  border-radius: 14px; border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 11px; font-weight: 700; letter-spacing: .02em;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.app-netflix { color: #e50914; }
+.app-youtube { color: #ff3b30; }
+.app-prime { color: #35b6ff; }
+.app-disney { color: #7ba7ff; }
+
+/* --------------------------------------------------------------- numpad -- */
+
+.numpad { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+.num {
+  height: 68px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  color: var(--text);
+  font-size: 24px; font-weight: 600;
+}
+.num-alt { font-size: 15px; color: var(--muted); }
+
+.colors .color { height: 44px; }
+.color-red { background: #d63c3c; border-color: transparent; }
+.color-green { background: #33a852; border-color: transparent; }
+.color-yellow { background: #e8b52c; border-color: transparent; }
+.color-blue { background: #3b6ee0; border-color: transparent; }
+
+/* --------------------------------------------------------------- formas -- */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.card h2 { margin: 0; font-size: 14px; font-weight: 650; letter-spacing: .01em; }
+.card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+.field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; color: var(--muted); }
+.field input, .field select, .field textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px; /* 16px evita que iOS haga zoom al enfocar */
+  color: var(--text);
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-family: inherit;
+  -webkit-user-select: text;
+  user-select: text;
+}
+.field textarea { resize: vertical; }
+.field input:focus, .field select:focus, .field textarea:focus {
+  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.btn {
+  min-height: 50px;
+  padding: 0 16px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 14px; font-weight: 600;
+  font-family: inherit;
+}
+.btn-primary { background: var(--accent); border-color: transparent; }
+.btn-sm { min-height: 38px; font-size: 13px; padding: 0 12px; }
+.btn:disabled { opacity: .5; }
+
+/* ------------------------------------------------------- listas de TVs --- */
+
+.found-list, .device-list { display: flex; flex-direction: column; gap: 8px; }
+
+.found-item, .device-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-soft);
+  text-align: left;
+  color: var(--text);
+  width: 100%;
+  font-family: inherit;
+}
+.device-item.is-active { border-color: var(--accent); background: var(--accent-soft); }
+.found-item .meta, .device-item .meta { flex: 1; min-width: 0; }
+.found-item strong, .device-item strong { display: block; font-size: 14px; font-weight: 620; }
+.found-item small, .device-item small { color: var(--muted); font-size: 12px; }
+.device-item .icon-btn { width: 38px; height: 38px; }
+.device-item .icon-btn .ico { width: 18px; height: 18px; }
+
+/* ----------------------------------------------------------------- tabs -- */
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line);
+  background: var(--bg-soft);
+  padding-bottom: var(--safe-bottom);
+}
+.tab {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 10px 4px 8px;
+  border: 0; background: transparent;
+  color: var(--muted);
+  font-size: 11px; font-weight: 600;
+  font-family: inherit;
+}
+.tab.is-active { color: var(--accent); }
+.tab .ico { width: 21px; height: 21px; }
+
+/* ---------------------------------------------------------------- toast -- */
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(84px + var(--safe-bottom));
+  transform: translate(-50%, 20px);
+  max-width: min(92vw, 420px);
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #232838;
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-size: 13px; line-height: 1.4;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
+  z-index: 50;
+}
+.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
+.toast.is-error { border-color: rgba(255, 77, 79, .5); background: #2b1d21; }
+
+/* Pantallas grandes: el control queda centrado como una columna angosta */
+@media (min-width: 620px) {
+  main, .topbar, .tabs { max-width: 460px; margin-inline: auto; width: 100%; }
+  body { background: #06080c; }
+}
+
+/* Celulares de pantalla corta (iPhone SE y similares): se comprime todo un
+   poco para que el volumen siga entrando sin scrollear. */
+@media (max-height: 700px) {
+  .panel { padding-top: 10px; gap: 10px; }
+  .key { height: 54px; }
+  .dpad { width: min(220px, 58vw, 27vh); }
+  .rocker-btn { min-height: 46px; }
+  .hint { font-size: 11px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
